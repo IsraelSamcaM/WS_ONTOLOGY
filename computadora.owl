@@ -1,0 +1,1506 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ssSFVzhirD7jHVtJplwAv -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7ssSFVzhirD7jHVtJplwAv">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <rdfs:label>componente_marca</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R87ESHn7KeUYK2b7rktl741 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R87ESHn7KeUYK2b7rktl741">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+        <rdfs:label>marca_componente</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8A1W4xtsFn2WLEzv2aWodu -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8A1W4xtsFn2WLEzv2aWodu">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <rdfs:label>perteneceA</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0hO3iSR9PoZnn7SBvq4oF -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC0hO3iSR9PoZnn7SBvq4oF">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+        <rdfs:label>tieneComponente</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCqxFtbmUCdCYbhKblc6pQJ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCqxFtbmUCdCYbhKblc6pQJ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <rdfs:label>marca_computadora</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPDmWE2W0A9hb7G2EEB9pH -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDPDmWE2W0A9hb7G2EEB9pH">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <rdfs:label>uso_computadora</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvSVzAdzDwXcqXV6cFS6aD -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RvSVzAdzDwXcqXV6cFS6aD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+        <rdfs:label>computadora_componente</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_marca -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_marca">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <rdfs:label>computadora_marca</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_uso -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_uso">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso"/>
+        <rdfs:label>computadora_uso</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0PlBlbSLIv3asdnLXhD6h -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R0PlBlbSLIv3asdnLXhD6h">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>tipo_comp</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>tipo_marca</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ancho_banda</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7QNHPSXmAz6klJtNaHcQc7 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7QNHPSXmAz6klJtNaHcQc7">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>segun_uso</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>modelo_computadora</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>fabricante</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7k9BtkyCASZjdyxag4H9H1 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7k9BtkyCASZjdyxag4H9H1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>memoria</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>anio_fabricacion</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7nGYbafaPRMRXIN7wIdKkH -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7nGYbafaPRMRXIN7wIdKkH">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>almacenamiento</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7op15BRFne6QK2Eyf85KCm -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7op15BRFne6QK2Eyf85KCm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>procesador</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Tnq7GUcENYzdcmyLsoiCp -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8Tnq7GUcENYzdcmyLsoiCp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>refrigeracion</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8bhR8cropJuoJ4FroMYguQ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8bhR8cropJuoJ4FroMYguQ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>modelo_comp</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ktfbxkHqBHqJRnOX0LCh8 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8ktfbxkHqBHqJRnOX0LCh8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label>precio_comp</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>origen</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>ruido</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>num_slots_ram</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>num_ventiladores</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>descripcion</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBvBVdjBfH9M5GEOtN5TrqR -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBvBVdjBfH9M5GEOtN5TrqR">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>marca</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>nombre_marca</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>consumo_energia</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label>precio_computadora</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>frecuencia_base</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>num_pines</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>velocidad_reloj</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDrVGt7fJmTgAfTd3mBd8f6 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDrVGt7fJmTgAfTd3mBd8f6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>num_nucleos</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>velocidad_lectura</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>velocidad</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>num_hilos</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>nombre_segun_uso</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>capacidad</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>sector_tecnologico</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>velocidad_escritura</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RocDMCAWkodOyBK0MGJ6xx -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RocDMCAWkodOyBK0MGJ6xx">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>placaMadre</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>tipo_computador</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuRWHpoaedIKlGeazpcAV9 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RuRWHpoaedIKlGeazpcAV9">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>nombre_comp</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RzgXE37VDqXwHT9k3TzZ9j -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RzgXE37VDqXwHT9k3TzZ9j">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>tarjeta_grafica</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+        <rdfs:label>TargetaGrafica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+    
+
+
+    <!-- http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3ViFj1F8ob21S2pzikGE4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R3ViFj1F8ob21S2pzikGE4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion"/>
+        <webprotege:R9h4n25EgTbyyCsjZRCT13C>24.6dB</webprotege:R9h4n25EgTbyyCsjZRCT13C>
+        <webprotege:RBqabWoUlqEhbSoZEGVLvRt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:RBqabWoUlqEhbSoZEGVLvRt>
+        <rdfs:label>ComponenteRefrigeracion3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R63SxRgndozle9EYxWEKuU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R63SxRgndozle9EYxWEKuU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador"/>
+        <webprotege:RCzgbwMMQzFCU0NyvGu00Jx>3.7 GHz</webprotege:RCzgbwMMQzFCU0NyvGu00Jx>
+        <webprotege:RDrVGt7fJmTgAfTd3mBd8f6 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</webprotege:RDrVGt7fJmTgAfTd3mBd8f6>
+        <webprotege:ROcPBgCPUf6X600as19EXL rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</webprotege:ROcPBgCPUf6X600as19EXL>
+        <rdfs:label>ComponenteProcesador1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6k33nFEWEOQl527Ytw4QE -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R6k33nFEWEOQl527Ytw4QE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l>Lenovo_group</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH>China</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh>Computadoras_portatiles</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>MarcaComputadora1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R70rZtGa6RWE1miYl5qTxAB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R70rZtGa6RWE1miYl5qTxAB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <webprotege:R7aLFKFemYzUavXDemq7NfK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP Spectre x360</webprotege:R7aLFKFemYzUavXDemq7NfK>
+        <webprotege:R7nDZav4mRMJm0gsegByFdl rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</webprotege:R7nDZav4mRMJm0gsegByFdl>
+        <webprotege:RCkuqxJX54Qyas93kXiT6ux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$1,299</webprotege:RCkuqxJX54Qyas93kXiT6ux>
+        <webprotege:RpkPbo4AhKV8BoJnIB9pQE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portatil</webprotege:RpkPbo4AhKV8BoJnIB9pQE>
+        <rdfs:label>Computadora9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74fgCaNtBKmSEny9I9P2d4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R74fgCaNtBKmSEny9I9P2d4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento"/>
+        <webprotege:RDwVzKQsudATpDAArWu1rV1>540MB/s</webprotege:RDwVzKQsudATpDAArWu1rV1>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>4TB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <webprotege:RkT7zLdFyvYc0CsdySXfqr>560MB/s</webprotege:RkT7zLdFyvYc0CsdySXfqr>
+        <rdfs:label>ComponenteAlmacenamiento6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R752wsUDrUTJeGKhMWQRwHP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R752wsUDrUTJeGKhMWQRwHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <webprotege:R7aLFKFemYzUavXDemq7NfK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dell XPS 13</webprotege:R7aLFKFemYzUavXDemq7NfK>
+        <webprotege:R7nDZav4mRMJm0gsegByFdl rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</webprotege:R7nDZav4mRMJm0gsegByFdl>
+        <webprotege:RCkuqxJX54Qyas93kXiT6ux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$1,199</webprotege:RCkuqxJX54Qyas93kXiT6ux>
+        <webprotege:RpkPbo4AhKV8BoJnIB9pQE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portatil</webprotege:RpkPbo4AhKV8BoJnIB9pQE>
+        <rdfs:label>Conputadora10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77vyJV5aSo3W0MqUZ9ERcS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R77vyJV5aSo3W0MqUZ9ERcS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre"/>
+        <webprotege:RB3cK72UjdeWR2C6Cb4uBRB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:RB3cK72UjdeWR2C6Cb4uBRB>
+        <webprotege:RDoqDLz8yDeUTKRSKqPJB2h>3600MHz</webprotege:RDoqDLz8yDeUTKRSKqPJB2h>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>128GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponentePlacaMadre3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7MjTtjDkwuloluYtReqdCz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7MjTtjDkwuloluYtReqdCz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l>KingstonTechnologyCorp</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH>EEUU</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh>ProductosMemoriaInformatiica</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>MarcaComponente5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Vj036BJWfRDXoZIXDcOsy -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7Vj036BJWfRDXoZIXDcOsy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R67sd4DtbWhSTY2axcLafQ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marca componente</webprotege:R67sd4DtbWhSTY2axcLafQ>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMD</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RCdTfbADq19Hxk8quqJU7nK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radeon</webprotege:RCdTfbADq19Hxk8quqJU7nK>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarjeta Gráfica</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>Marca9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7byDUuFSWgL5RifHXLU6bM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7byDUuFSWgL5RifHXLU6bM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <webprotege:R7aLFKFemYzUavXDemq7NfK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Surface Studio 2</webprotege:R7aLFKFemYzUavXDemq7NfK>
+        <webprotege:R7nDZav4mRMJm0gsegByFdl rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</webprotege:R7nDZav4mRMJm0gsegByFdl>
+        <webprotege:RCkuqxJX54Qyas93kXiT6ux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$2,999</webprotege:RCkuqxJX54Qyas93kXiT6ux>
+        <webprotege:RpkPbo4AhKV8BoJnIB9pQE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escritorio</webprotege:RpkPbo4AhKV8BoJnIB9pQE>
+        <rdfs:label>Computadora4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7kgguftK5Kd3L7ZYWM7N7w -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7kgguftK5Kd3L7ZYWM7N7w">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <webprotege:R7aLFKFemYzUavXDemq7NfK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dell XPS 13</webprotege:R7aLFKFemYzUavXDemq7NfK>
+        <webprotege:R7nDZav4mRMJm0gsegByFdl rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</webprotege:R7nDZav4mRMJm0gsegByFdl>
+        <webprotege:RCkuqxJX54Qyas93kXiT6ux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$2,399</webprotege:RCkuqxJX54Qyas93kXiT6ux>
+        <webprotege:RpkPbo4AhKV8BoJnIB9pQE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portatil</webprotege:RpkPbo4AhKV8BoJnIB9pQE>
+        <rdfs:label>Computadora1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7mEVcp6i8548zg0lZncVDw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7mEVcp6i8548zg0lZncVDw">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre"/>
+        <webprotege:RB3cK72UjdeWR2C6Cb4uBRB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:RB3cK72UjdeWR2C6Cb4uBRB>
+        <webprotege:RDoqDLz8yDeUTKRSKqPJB2h>2933MHz</webprotege:RDoqDLz8yDeUTKRSKqPJB2h>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>32GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponentePlacaMadre1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ok1Yf1ccLb1M03EwMCOmR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7ok1Yf1ccLb1M03EwMCOmR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria"/>
+        <webprotege:ROXjJjDmGoBz93lvbrugSW>3200MHz</webprotege:ROXjJjDmGoBz93lvbrugSW>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>16GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponenteMemoriaRam4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7pGJNYNmZc4tAYqTs7P8bN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7pGJNYNmZc4tAYqTs7P8bN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre"/>
+        <webprotege:RB3cK72UjdeWR2C6Cb4uBRB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:RB3cK72UjdeWR2C6Cb4uBRB>
+        <webprotege:RDoqDLz8yDeUTKRSKqPJB2h>4000MHz</webprotege:RDoqDLz8yDeUTKRSKqPJB2h>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>128GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponentePlacaMadre4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xOaxK8jYsv0V3oBiNVXxt -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7xOaxK8jYsv0V3oBiNVXxt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l>HewlettPackardCompany</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH>California_EEUU</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh>SoftwareHardware</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>MarcaComputadora3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8BMaQ5YVYJGYUz5CB5LRRw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8BMaQ5YVYJGYUz5CB5LRRw">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador"/>
+        <webprotege:RCzgbwMMQzFCU0NyvGu00Jx>3.7 GHz</webprotege:RCzgbwMMQzFCU0NyvGu00Jx>
+        <webprotege:RDrVGt7fJmTgAfTd3mBd8f6 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</webprotege:RDrVGt7fJmTgAfTd3mBd8f6>
+        <webprotege:ROcPBgCPUf6X600as19EXL rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</webprotege:ROcPBgCPUf6X600as19EXL>
+        <rdfs:label>ComponenteProcesador4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8DQ1qqDfiOVxzyWMyhlmjQ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8DQ1qqDfiOVxzyWMyhlmjQ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <webprotege:R7aLFKFemYzUavXDemq7NfK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lenovo ThinkPad X1</webprotege:R7aLFKFemYzUavXDemq7NfK>
+        <webprotege:R7nDZav4mRMJm0gsegByFdl rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</webprotege:R7nDZav4mRMJm0gsegByFdl>
+        <webprotege:RCkuqxJX54Qyas93kXiT6ux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$1,499</webprotege:RCkuqxJX54Qyas93kXiT6ux>
+        <webprotege:RpkPbo4AhKV8BoJnIB9pQE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portatil</webprotege:RpkPbo4AhKV8BoJnIB9pQE>
+        <rdfs:label>Computadora8</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8UtXqowDuncvUPLO5Gxs4P -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8UtXqowDuncvUPLO5Gxs4P">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R67sd4DtbWhSTY2axcLafQ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marca componente</webprotege:R67sd4DtbWhSTY2axcLafQ>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intel</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RCdTfbADq19Hxk8quqJU7nK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Core</webprotege:RCdTfbADq19Hxk8quqJU7nK>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procesadores</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>Marca6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XKsUWF8azHxhXQA5akrgK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8XKsUWF8azHxhXQA5akrgK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0"/>
+        <webprotege:R75nTzU8L1xh16HW1Kn3qUH>672GB/s</webprotege:R75nTzU8L1xh16HW1Kn3qUH>
+        <webprotege:RCzgbwMMQzFCU0NyvGu00Jx>1700MHz</webprotege:RCzgbwMMQzFCU0NyvGu00Jx>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>12GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponenteTarjetaGrafica4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ax6CirsUiBxfZieX41sP7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ax6CirsUiBxfZieX41sP7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l>Micro_Star_International</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH>Taiwan</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh>ProductosIT</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>MarcaComponente3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8baNAbtFK23vMIiT6mLGfo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8baNAbtFK23vMIiT6mLGfo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R67sd4DtbWhSTY2axcLafQ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marca computadora</webprotege:R67sd4DtbWhSTY2axcLafQ>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dell Computer Corporation</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RCdTfbADq19Hxk8quqJU7nK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPS</webprotege:RCdTfbADq19Hxk8quqJU7nK>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informatica</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>Marca2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8c2XUZicivg8bz0KAOkKUB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8c2XUZicivg8bz0KAOkKUB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion"/>
+        <webprotege:R9h4n25EgTbyyCsjZRCT13C>24dB</webprotege:R9h4n25EgTbyyCsjZRCT13C>
+        <webprotege:RBqabWoUlqEhbSoZEGVLvRt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:RBqabWoUlqEhbSoZEGVLvRt>
+        <rdfs:label>ComponenteRefrigeracion2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8psNOGNJH4biioB8NNzY25 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8psNOGNJH4biioB8NNzY25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador"/>
+        <webprotege:RCzgbwMMQzFCU0NyvGu00Jx>2.2 GHz</webprotege:RCzgbwMMQzFCU0NyvGu00Jx>
+        <webprotege:RDrVGt7fJmTgAfTd3mBd8f6 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</webprotege:RDrVGt7fJmTgAfTd3mBd8f6>
+        <webprotege:ROcPBgCPUf6X600as19EXL rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</webprotege:ROcPBgCPUf6X600as19EXL>
+        <rdfs:label>ComponenteProcesador3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R91vH68IXHPzrrCf2lYeuvO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R91vH68IXHPzrrCf2lYeuvO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre"/>
+        <webprotege:RB3cK72UjdeWR2C6Cb4uBRB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:RB3cK72UjdeWR2C6Cb4uBRB>
+        <webprotege:RDoqDLz8yDeUTKRSKqPJB2h>3200MHz</webprotege:RDoqDLz8yDeUTKRSKqPJB2h>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>64GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponentePlacaMadre2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R97NEBJVKxubeOHB2LmQ0Zi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R97NEBJVKxubeOHB2LmQ0Zi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l>IntelCorporation</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH>California</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh>ProcesadoresComputacionales</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>MarcaComponente2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9BtrPwkyRGW2UKyic2CUtl -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9BtrPwkyRGW2UKyic2CUtl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso"/>
+        <webprotege:RBuEyrO17FsyQvIvDFGLJzG>Es una computadora que se caracteriza por su fácil portabilidad, diseñada para editar textos, navegar en la web y utilizar aplicaciones educativas.</webprotege:RBuEyrO17FsyQvIvDFGLJzG>
+        <webprotege:RCeBpAh2utr4NBKXgAeH0tu>40 W</webprotege:RCeBpAh2utr4NBKXgAeH0tu>
+        <webprotege:RRR9uB4WCwMWv6ymd6ghGw rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Educativo</webprotege:RRR9uB4WCwMWv6ymd6ghGw>
+        <rdfs:label>SegunUso4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ITNZ6jBhH2RbWKLFS2gzC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9ITNZ6jBhH2RbWKLFS2gzC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R67sd4DtbWhSTY2axcLafQ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marca componente</webprotege:R67sd4DtbWhSTY2axcLafQ>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NVIDIA</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RCdTfbADq19Hxk8quqJU7nK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeForze</webprotege:RCdTfbADq19Hxk8quqJU7nK>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarjeta Gráfica</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>Marca8</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9KPUxHMtkgV0n8qXRxj9QL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9KPUxHMtkgV0n8qXRxj9QL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <webprotege:R7aLFKFemYzUavXDemq7NfK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple iMac 21.5&quot;</webprotege:R7aLFKFemYzUavXDemq7NfK>
+        <webprotege:R7nDZav4mRMJm0gsegByFdl rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</webprotege:R7nDZav4mRMJm0gsegByFdl>
+        <webprotege:RCkuqxJX54Qyas93kXiT6ux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$1,099</webprotege:RCkuqxJX54Qyas93kXiT6ux>
+        <webprotege:RpkPbo4AhKV8BoJnIB9pQE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escritorio</webprotege:RpkPbo4AhKV8BoJnIB9pQE>
+        <rdfs:label>Computadora2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9OXFOnZi8w82DofwXhR8Pm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9OXFOnZi8w82DofwXhR8Pm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion"/>
+        <webprotege:R9h4n25EgTbyyCsjZRCT13C>21dB</webprotege:R9h4n25EgTbyyCsjZRCT13C>
+        <webprotege:RBqabWoUlqEhbSoZEGVLvRt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:RBqabWoUlqEhbSoZEGVLvRt>
+        <rdfs:label>ComponenteRefrigeracion4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9W9trHO116nljaOOt66cKK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9W9trHO116nljaOOt66cKK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento"/>
+        <webprotege:RDwVzKQsudATpDAArWu1rV1>560MB/s</webprotege:RDwVzKQsudATpDAArWu1rV1>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>2TB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <webprotege:RkT7zLdFyvYc0CsdySXfqr>530MB/s</webprotege:RkT7zLdFyvYc0CsdySXfqr>
+        <rdfs:label>ComponenteAlmacenamiento5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZtKJyq8SpHpN4QNMx0EBd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9ZtKJyq8SpHpN4QNMx0EBd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso"/>
+        <webprotege:RBuEyrO17FsyQvIvDFGLJzG>Es una computadora de escritorio equipada con 
+hardware de última generación especialmente para video juegos</webprotege:RBuEyrO17FsyQvIvDFGLJzG>
+        <webprotege:RCeBpAh2utr4NBKXgAeH0tu>500 W</webprotege:RCeBpAh2utr4NBKXgAeH0tu>
+        <webprotege:RRR9uB4WCwMWv6ymd6ghGw rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gamer</webprotege:RRR9uB4WCwMWv6ymd6ghGw>
+        <rdfs:label>SegunUso2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9fiD85ILc5hiazCSrty57v -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9fiD85ILc5hiazCSrty57v">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l>AdvantechCorp</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH>Taiwan</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh>ComponentesInformaticos</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>MarcaComponente1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9kWeAME3LzRlJiuSf853jk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9kWeAME3LzRlJiuSf853jk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador"/>
+        <webprotege:RCzgbwMMQzFCU0NyvGu00Jx>3.2 GHz</webprotege:RCzgbwMMQzFCU0NyvGu00Jx>
+        <webprotege:RDrVGt7fJmTgAfTd3mBd8f6 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</webprotege:RDrVGt7fJmTgAfTd3mBd8f6>
+        <webprotege:ROcPBgCPUf6X600as19EXL rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</webprotege:ROcPBgCPUf6X600as19EXL>
+        <rdfs:label>ComponenteProcesador5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9to37skHVLCz6fSMNJPFOC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9to37skHVLCz6fSMNJPFOC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R67sd4DtbWhSTY2axcLafQ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marca computadora</webprotege:R67sd4DtbWhSTY2axcLafQ>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lenovo</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RCdTfbADq19Hxk8quqJU7nK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ThinkPad</webprotege:RCdTfbADq19Hxk8quqJU7nK>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informática</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>Marca3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB76ojMBSOMYKGFUIjgHjln -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB76ojMBSOMYKGFUIjgHjln">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria"/>
+        <webprotege:RDKqLzRK47ZwQHy1H5PRPfh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260</webprotege:RDKqLzRK47ZwQHy1H5PRPfh>
+        <webprotege:ROXjJjDmGoBz93lvbrugSW>2200MHz</webprotege:ROXjJjDmGoBz93lvbrugSW>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>4GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponenteMemoriaRam2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8D8NKFRDkUm2iQPNt96zu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB8D8NKFRDkUm2iQPNt96zu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0"/>
+        <webprotege:R75nTzU8L1xh16HW1Kn3qUH>512GB/s</webprotege:R75nTzU8L1xh16HW1Kn3qUH>
+        <webprotege:RCzgbwMMQzFCU0NyvGu00Jx>1500MHz</webprotege:RCzgbwMMQzFCU0NyvGu00Jx>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>10GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponenteTarjetaGrafica2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBNQ8gOiJ7AyZO8FRZkFmiv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBNQ8gOiJ7AyZO8FRZkFmiv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0"/>
+        <webprotege:R75nTzU8L1xh16HW1Kn3qUH>760GB/s</webprotege:R75nTzU8L1xh16HW1Kn3qUH>
+        <webprotege:RCzgbwMMQzFCU0NyvGu00Jx>1800MHz</webprotege:RCzgbwMMQzFCU0NyvGu00Jx>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>24GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponenteTarjetaGrafica5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQe3CYqY1JgYiNpMiY4jiv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBQe3CYqY1JgYiNpMiY4jiv">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <webprotege:R7aLFKFemYzUavXDemq7NfK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iMac 27&quot;</webprotege:R7aLFKFemYzUavXDemq7NfK>
+        <webprotege:R7nDZav4mRMJm0gsegByFdl rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</webprotege:R7nDZav4mRMJm0gsegByFdl>
+        <webprotege:RCkuqxJX54Qyas93kXiT6ux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$1,799</webprotege:RCkuqxJX54Qyas93kXiT6ux>
+        <webprotege:RpkPbo4AhKV8BoJnIB9pQE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escritorio</webprotege:RpkPbo4AhKV8BoJnIB9pQE>
+        <rdfs:label>Computadora5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBULjrPmRicmJN8X6NQsgK6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBULjrPmRicmJN8X6NQsgK6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion"/>
+        <webprotege:R9h4n25EgTbyyCsjZRCT13C>30dB</webprotege:R9h4n25EgTbyyCsjZRCT13C>
+        <webprotege:RBqabWoUlqEhbSoZEGVLvRt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:RBqabWoUlqEhbSoZEGVLvRt>
+        <rdfs:label>ComponenteRefrigeración5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBYUxPji5jgD3CWP3SRWu1L -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBYUxPji5jgD3CWP3SRWu1L">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R67sd4DtbWhSTY2axcLafQ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marca computadora</webprotege:R67sd4DtbWhSTY2axcLafQ>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple Inc.</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RCdTfbADq19Hxk8quqJU7nK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mack Book</webprotege:RCdTfbADq19Hxk8quqJU7nK>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informática</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>Marca1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBbqCEE2lU7wSfLE3GQQUC7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBbqCEE2lU7wSfLE3GQQUC7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento"/>
+        <webprotege:R0PlBlbSLIv3asdnLXhD6h rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interno</webprotege:R0PlBlbSLIv3asdnLXhD6h>
+        <webprotege:R8ktfbxkHqBHqJRnOX0LCh8 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">59.99</webprotege:R8ktfbxkHqBHqJRnOX0LCh8>
+        <webprotege:RDwVzKQsudATpDAArWu1rV1>550MB/s</webprotege:RDwVzKQsudATpDAArWu1rV1>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>500GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <webprotege:RkT7zLdFyvYc0CsdySXfqr>520MB/s</webprotege:RkT7zLdFyvYc0CsdySXfqr>
+        <webprotege:RuRWHpoaedIKlGeazpcAV9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crucial MX500</webprotege:RuRWHpoaedIKlGeazpcAV9>
+        <rdfs:label>ComponenteAlmacenamiento3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBgKfLFVpivsocTvz038iLL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBgKfLFVpivsocTvz038iLL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R67sd4DtbWhSTY2axcLafQ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marca computadora</webprotege:R67sd4DtbWhSTY2axcLafQ>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASUS</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taiwán</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RCdTfbADq19Hxk8quqJU7nK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROG</webprotege:RCdTfbADq19Hxk8quqJU7nK>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaming</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>Marca5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBhxfJmnZGEIOobLZELOZM3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBhxfJmnZGEIOobLZELOZM3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria"/>
+        <webprotege:RDKqLzRK47ZwQHy1H5PRPfh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260</webprotege:RDKqLzRK47ZwQHy1H5PRPfh>
+        <webprotege:ROXjJjDmGoBz93lvbrugSW>2400MHz</webprotege:ROXjJjDmGoBz93lvbrugSW>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>8GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponenteMemoriaRam3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBnut3GQC6o4r1PbP28wk6u -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBnut3GQC6o4r1PbP28wk6u">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l>Acer_Inc</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH>China</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh>Computacion</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>MarcaComputadora4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBqVzvtp4zZbUjxhfzTg7wi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBqVzvtp4zZbUjxhfzTg7wi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento"/>
+        <webprotege:RDwVzKQsudATpDAArWu1rV1>540MB/s</webprotege:RDwVzKQsudATpDAArWu1rV1>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>1TB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <webprotege:RkT7zLdFyvYc0CsdySXfqr>500MB/s</webprotege:RkT7zLdFyvYc0CsdySXfqr>
+        <rdfs:label>ComponenteAlmacenamiento4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC9BIPfQ19IlBsuvnA4YRaK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC9BIPfQ19IlBsuvnA4YRaK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R67sd4DtbWhSTY2axcLafQ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marca componente</webprotege:R67sd4DtbWhSTY2axcLafQ>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kingston Technology</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RCdTfbADq19Hxk8quqJU7nK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HiperX</webprotege:RCdTfbADq19Hxk8quqJU7nK>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Memoria RAM</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>Marca10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCG3qpWEMdYUQKKqDljtYer -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCG3qpWEMdYUQKKqDljtYer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l>Asus</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH>Taiwan</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh>Hardware</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>MarcaComputadora5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCI8Od8NFqyLgPC2FYOhx6M -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCI8Od8NFqyLgPC2FYOhx6M">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso"/>
+        <webprotege:RBuEyrO17FsyQvIvDFGLJzG>Es una computadora que se enfoca en gestionar y almacenar la base de datos de una empresa, optimizando el rendimiento y seguridad.</webprotege:RBuEyrO17FsyQvIvDFGLJzG>
+        <webprotege:RCeBpAh2utr4NBKXgAeH0tu>250 W</webprotege:RCeBpAh2utr4NBKXgAeH0tu>
+        <webprotege:RRR9uB4WCwMWv6ymd6ghGw rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Servidor</webprotege:RRR9uB4WCwMWv6ymd6ghGw>
+        <rdfs:label>SegunUso3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJvpH9ifAHI9mZWxji19GJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCJvpH9ifAHI9mZWxji19GJ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso"/>
+        <webprotege:RBuEyrO17FsyQvIvDFGLJzG>Es una computadora diseñada para un uso personal como ser el manejo archivos multimedia, descargas, etc.</webprotege:RBuEyrO17FsyQvIvDFGLJzG>
+        <webprotege:RCeBpAh2utr4NBKXgAeH0tu>30 W</webprotege:RCeBpAh2utr4NBKXgAeH0tu>
+        <webprotege:RRR9uB4WCwMWv6ymd6ghGw rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal</webprotege:RRR9uB4WCwMWv6ymd6ghGw>
+        <rdfs:label>SegunUso5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCLaeMJ5CGmTGbYwQsXnm5z -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCLaeMJ5CGmTGbYwQsXnm5z">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l>AdvancedMicroDevices</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH>EEUU</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh>ProductosTecnologicos</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>MarcaComponente4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCWNzcm4Vy1xzCh5nkAu8UY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCWNzcm4Vy1xzCh5nkAu8UY">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0"/>
+        <webprotege:R75nTzU8L1xh16HW1Kn3qUH>608GB/s</webprotege:R75nTzU8L1xh16HW1Kn3qUH>
+        <webprotege:RCzgbwMMQzFCU0NyvGu00Jx>1605MHz</webprotege:RCzgbwMMQzFCU0NyvGu00Jx>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>12GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponenteTarjetaGrafica3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCcEfrsdvqSgu1CJIaLckrP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCcEfrsdvqSgu1CJIaLckrP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria"/>
+        <webprotege:RDKqLzRK47ZwQHy1H5PRPfh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</webprotege:RDKqLzRK47ZwQHy1H5PRPfh>
+        <webprotege:ROXjJjDmGoBz93lvbrugSW>1600MHz</webprotege:ROXjJjDmGoBz93lvbrugSW>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>4GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponenteMemoriaRam1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCuz9Lm4YTB4qZyGkt94DSR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCuz9Lm4YTB4qZyGkt94DSR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador"/>
+        <webprotege:RCzgbwMMQzFCU0NyvGu00Jx>3.2 GHz</webprotege:RCzgbwMMQzFCU0NyvGu00Jx>
+        <webprotege:RDrVGt7fJmTgAfTd3mBd8f6 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</webprotege:RDrVGt7fJmTgAfTd3mBd8f6>
+        <webprotege:ROcPBgCPUf6X600as19EXL rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</webprotege:ROcPBgCPUf6X600as19EXL>
+        <rdfs:label>ComponenteProcesador2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1mPSUqHUn57RcuBsDce1U -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD1mPSUqHUn57RcuBsDce1U">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R67sd4DtbWhSTY2axcLafQ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marca componente</webprotege:R67sd4DtbWhSTY2axcLafQ>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMD</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estados Unidos</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RCdTfbADq19Hxk8quqJU7nK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ryzen</webprotege:RCdTfbADq19Hxk8quqJU7nK>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procesadores</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>Marca7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDepko8zNRZZTmkUXCnxzDc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDepko8zNRZZTmkUXCnxzDc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre"/>
+        <webprotege:RB3cK72UjdeWR2C6Cb4uBRB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</webprotege:RB3cK72UjdeWR2C6Cb4uBRB>
+        <webprotege:RDoqDLz8yDeUTKRSKqPJB2h>4400MHz</webprotege:RDoqDLz8yDeUTKRSKqPJB2h>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>256GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponentePlacaMadre5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDopD54cNMoBgqbDuUM8BVY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDopD54cNMoBgqbDuUM8BVY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R67sd4DtbWhSTY2axcLafQ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marca computadora</webprotege:R67sd4DtbWhSTY2axcLafQ>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACER</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taiwán</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RCdTfbADq19Hxk8quqJU7nK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Predator</webprotege:RCdTfbADq19Hxk8quqJU7nK>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaming</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>Marca4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGyayjkhQw0wN6glH6W6JI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RGyayjkhQw0wN6glH6W6JI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria"/>
+        <webprotege:RDKqLzRK47ZwQHy1H5PRPfh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</webprotege:RDKqLzRK47ZwQHy1H5PRPfh>
+        <webprotege:ROXjJjDmGoBz93lvbrugSW>5200MHz</webprotege:ROXjJjDmGoBz93lvbrugSW>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>32GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponenteMemoriaRam6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMyzqlaHOv5gZcQSaH97Pq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RMyzqlaHOv5gZcQSaH97Pq">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria"/>
+        <webprotege:RDKqLzRK47ZwQHy1H5PRPfh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</webprotege:RDKqLzRK47ZwQHy1H5PRPfh>
+        <webprotege:ROXjJjDmGoBz93lvbrugSW>4800MHz</webprotege:ROXjJjDmGoBz93lvbrugSW>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>16GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponenteMemoriaRam5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento"/>
+        <webprotege:R0PlBlbSLIv3asdnLXhD6h rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interno</webprotege:R0PlBlbSLIv3asdnLXhD6h>
+        <webprotege:R8bhR8cropJuoJ4FroMYguQ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA2000M8/250G</webprotege:R8bhR8cropJuoJ4FroMYguQ>
+        <webprotege:R8ktfbxkHqBHqJRnOX0LCh8 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44.99</webprotege:R8ktfbxkHqBHqJRnOX0LCh8>
+        <webprotege:RDwVzKQsudATpDAArWu1rV1>500MB/s</webprotege:RDwVzKQsudATpDAArWu1rV1>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>256GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <webprotege:RkT7zLdFyvYc0CsdySXfqr>450MB/s</webprotege:RkT7zLdFyvYc0CsdySXfqr>
+        <webprotege:RuRWHpoaedIKlGeazpcAV9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kingston A200</webprotege:RuRWHpoaedIKlGeazpcAV9>
+        <rdfs:label>ComponenteAlmacenamiento2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUH6snbbcbEJOMGYQqVXTu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RUH6snbbcbEJOMGYQqVXTu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <webprotege:R7aLFKFemYzUavXDemq7NfK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASUS ROG Strix</webprotege:R7aLFKFemYzUavXDemq7NfK>
+        <webprotege:R7nDZav4mRMJm0gsegByFdl rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</webprotege:R7nDZav4mRMJm0gsegByFdl>
+        <webprotege:RCkuqxJX54Qyas93kXiT6ux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$1,999</webprotege:RCkuqxJX54Qyas93kXiT6ux>
+        <webprotege:RpkPbo4AhKV8BoJnIB9pQE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaming</webprotege:RpkPbo4AhKV8BoJnIB9pQE>
+        <rdfs:label>Computadora7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYyOf5JBiYmzpfwNFPdDGL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RYyOf5JBiYmzpfwNFPdDGL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion"/>
+        <webprotege:R9h4n25EgTbyyCsjZRCT13C>26dB</webprotege:R9h4n25EgTbyyCsjZRCT13C>
+        <webprotege:RBqabWoUlqEhbSoZEGVLvRt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</webprotege:RBqabWoUlqEhbSoZEGVLvRt>
+        <rdfs:label>ComponenteRefrigeracion1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZEmjc16PyvfT7hiwDi0U3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RZEmjc16PyvfT7hiwDi0U3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+        <webprotege:R7gx4WmZPTpbWq8PC71pJ0l>DellComputerCorp</webprotege:R7gx4WmZPTpbWq8PC71pJ0l>
+        <webprotege:R93m7hxpbCB5il3AQueuexH>TexasEEUU</webprotege:R93m7hxpbCB5il3AQueuexH>
+        <webprotege:RiOU5Op8BPDpcQziDZC6Oh>Computadoras</webprotege:RiOU5Op8BPDpcQziDZC6Oh>
+        <rdfs:label>MarcaComputadora2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZpxiVr0oM1Gmsd7BDXjTI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RZpxiVr0oM1Gmsd7BDXjTI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0"/>
+        <webprotege:R75nTzU8L1xh16HW1Kn3qUH>448GB/s</webprotege:R75nTzU8L1xh16HW1Kn3qUH>
+        <webprotege:RCzgbwMMQzFCU0NyvGu00Jx>1014MHz</webprotege:RCzgbwMMQzFCU0NyvGu00Jx>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>8GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <rdfs:label>ComponenteTarjetaGrafica1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rg7mTpJO7QZIy54S3HUr6Z -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rg7mTpJO7QZIy54S3HUr6Z">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <webprotege:R7aLFKFemYzUavXDemq7NfK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acer Aspire 5</webprotege:R7aLFKFemYzUavXDemq7NfK>
+        <webprotege:R7nDZav4mRMJm0gsegByFdl rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</webprotege:R7nDZav4mRMJm0gsegByFdl>
+        <webprotege:RCkuqxJX54Qyas93kXiT6ux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$599</webprotege:RCkuqxJX54Qyas93kXiT6ux>
+        <webprotege:RpkPbo4AhKV8BoJnIB9pQE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escritorio</webprotege:RpkPbo4AhKV8BoJnIB9pQE>
+        <rdfs:label>Computadora6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento"/>
+        <webprotege:R0PlBlbSLIv3asdnLXhD6h rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interno</webprotege:R0PlBlbSLIv3asdnLXhD6h>
+        <webprotege:R8bhR8cropJuoJ4FroMYguQ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MZ-76E120B/AM</webprotege:R8bhR8cropJuoJ4FroMYguQ>
+        <webprotege:R8ktfbxkHqBHqJRnOX0LCh8 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.99</webprotege:R8ktfbxkHqBHqJRnOX0LCh8>
+        <webprotege:RDwVzKQsudATpDAArWu1rV1>450MB/s</webprotege:RDwVzKQsudATpDAArWu1rV1>
+        <webprotege:Rhdc3WbcqXsT7lhSFNBS4e>128GB</webprotege:Rhdc3WbcqXsT7lhSFNBS4e>
+        <webprotege:RkT7zLdFyvYc0CsdySXfqr>400MB/s</webprotege:RkT7zLdFyvYc0CsdySXfqr>
+        <webprotege:RuRWHpoaedIKlGeazpcAV9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samsung 860 Evo</webprotege:RuRWHpoaedIKlGeazpcAV9>
+        <rdfs:label>ComponenteAlmacenamiento1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RowbSHRprXb3dCrLRipj3j -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RowbSHRprXb3dCrLRipj3j">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+        <webprotege:R7aLFKFemYzUavXDemq7NfK rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Razer Blade 15</webprotege:R7aLFKFemYzUavXDemq7NfK>
+        <webprotege:R7nDZav4mRMJm0gsegByFdl rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</webprotege:R7nDZav4mRMJm0gsegByFdl>
+        <webprotege:RCkuqxJX54Qyas93kXiT6ux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$2,299</webprotege:RCkuqxJX54Qyas93kXiT6ux>
+        <webprotege:RpkPbo4AhKV8BoJnIB9pQE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaming</webprotege:RpkPbo4AhKV8BoJnIB9pQE>
+        <rdfs:label>Computadora3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RyghrutsW0RFWlscHyUcpz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RyghrutsW0RFWlscHyUcpz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso"/>
+        <webprotege:RBuEyrO17FsyQvIvDFGLJzG>Es una computadora de escritorio diseñada para realizar tareas administrativas, como el manejo de hojas de cálculo y el proceso de documentos.</webprotege:RBuEyrO17FsyQvIvDFGLJzG>
+        <webprotege:RCeBpAh2utr4NBKXgAeH0tu>150 W</webprotege:RCeBpAh2utr4NBKXgAeH0tu>
+        <webprotege:RRR9uB4WCwMWv6ymd6ghGw rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oficina</webprotege:RRR9uB4WCwMWv6ymd6ghGw>
+        <rdfs:label>SegunUso1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

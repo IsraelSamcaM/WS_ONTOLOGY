@@ -1,0 +1,1127 @@
+Prefix(:=<http://www.w3.org/2002/07/owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3>
+
+Declaration(Class(<http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0>))
+Declaration(Class(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento>))
+Declaration(Class(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>))
+Declaration(Class(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>))
+Declaration(Class(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca>))
+Declaration(Class(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria>))
+Declaration(Class(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre>))
+Declaration(Class(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador>))
+Declaration(Class(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion>))
+Declaration(Class(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/R7ssSFVzhirD7jHVtJplwAv>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/R87ESHn7KeUYK2b7rktl741>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/R8A1W4xtsFn2WLEzv2aWodu>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/RC0hO3iSR9PoZnn7SBvq4oF>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/RCqxFtbmUCdCYbhKblc6pQJ>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/RDPDmWE2W0A9hb7G2EEB9pH>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/RvSVzAdzDwXcqXV6cFS6aD>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_marca>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_uso>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R0PlBlbSLIv3asdnLXhD6h>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R7QNHPSXmAz6klJtNaHcQc7>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R7k9BtkyCASZjdyxag4H9H1>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R7nGYbafaPRMRXIN7wIdKkH>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R7op15BRFne6QK2Eyf85KCm>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8Tnq7GUcENYzdcmyLsoiCp>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8bhR8cropJuoJ4FroMYguQ>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8ktfbxkHqBHqJRnOX0LCh8>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RBvBVdjBfH9M5GEOtN5TrqR>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDrVGt7fJmTgAfTd3mBd8f6>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RocDMCAWkodOyBK0MGJ6xx>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RuRWHpoaedIKlGeazpcAV9>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RzgXE37VDqXwHT9k3TzZ9j>))
+Declaration(DataProperty(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_almacenamiento>))
+Declaration(DataProperty(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_placa_madre>))
+Declaration(DataProperty(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_tarjeta_grafica>))
+Declaration(DataProperty(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#frecuencia_base_tarjeta_grafica>))
+Declaration(DataProperty(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#num_nucleos_procesador>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R3ViFj1F8ob21S2pzikGE4>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R63SxRgndozle9EYxWEKuU>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R6k33nFEWEOQl527Ytw4QE>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R70rZtGa6RWE1miYl5qTxAB>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R74fgCaNtBKmSEny9I9P2d4>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R752wsUDrUTJeGKhMWQRwHP>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R77vyJV5aSo3W0MqUZ9ERcS>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R7MjTtjDkwuloluYtReqdCz>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R7Vj036BJWfRDXoZIXDcOsy>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R7byDUuFSWgL5RifHXLU6bM>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R7kgguftK5Kd3L7ZYWM7N7w>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R7mEVcp6i8548zg0lZncVDw>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R7ok1Yf1ccLb1M03EwMCOmR>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R7pGJNYNmZc4tAYqTs7P8bN>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R7xOaxK8jYsv0V3oBiNVXxt>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8BMaQ5YVYJGYUz5CB5LRRw>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8DQ1qqDfiOVxzyWMyhlmjQ>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8UtXqowDuncvUPLO5Gxs4P>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8XKsUWF8azHxhXQA5akrgK>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8ax6CirsUiBxfZieX41sP7>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8baNAbtFK23vMIiT6mLGfo>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8c2XUZicivg8bz0KAOkKUB>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8psNOGNJH4biioB8NNzY25>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R91vH68IXHPzrrCf2lYeuvO>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R97NEBJVKxubeOHB2LmQ0Zi>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9BtrPwkyRGW2UKyic2CUtl>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9ITNZ6jBhH2RbWKLFS2gzC>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9KPUxHMtkgV0n8qXRxj9QL>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9OXFOnZi8w82DofwXhR8Pm>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9W9trHO116nljaOOt66cKK>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9ZtKJyq8SpHpN4QNMx0EBd>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9fiD85ILc5hiazCSrty57v>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9kWeAME3LzRlJiuSf853jk>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9to37skHVLCz6fSMNJPFOC>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RB76ojMBSOMYKGFUIjgHjln>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RB8D8NKFRDkUm2iQPNt96zu>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBNQ8gOiJ7AyZO8FRZkFmiv>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBQe3CYqY1JgYiNpMiY4jiv>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBULjrPmRicmJN8X6NQsgK6>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBYUxPji5jgD3CWP3SRWu1L>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBbqCEE2lU7wSfLE3GQQUC7>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBgKfLFVpivsocTvz038iLL>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBhxfJmnZGEIOobLZELOZM3>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBnut3GQC6o4r1PbP28wk6u>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBqVzvtp4zZbUjxhfzTg7wi>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RC9BIPfQ19IlBsuvnA4YRaK>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCG3qpWEMdYUQKKqDljtYer>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCI8Od8NFqyLgPC2FYOhx6M>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCJvpH9ifAHI9mZWxji19GJ>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCLaeMJ5CGmTGbYwQsXnm5z>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCWNzcm4Vy1xzCh5nkAu8UY>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCcEfrsdvqSgu1CJIaLckrP>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RCuz9Lm4YTB4qZyGkt94DSR>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RD1mPSUqHUn57RcuBsDce1U>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RDepko8zNRZZTmkUXCnxzDc>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RDopD54cNMoBgqbDuUM8BVY>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RGyayjkhQw0wN6glH6W6JI>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RMyzqlaHOv5gZcQSaH97Pq>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RUH6snbbcbEJOMGYQqVXTu>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RYyOf5JBiYmzpfwNFPdDGL>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RZEmjc16PyvfT7hiwDi0U3>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RZpxiVr0oM1Gmsd7BDXjTI>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/Rg7mTpJO7QZIy54S3HUr6Z>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RowbSHRprXb3dCrLRipj3j>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RyghrutsW0RFWlscHyUcpz>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://webprotege.stanford.edu/R7ssSFVzhirD7jHVtJplwAv> (componente_marca)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7ssSFVzhirD7jHVtJplwAv> "componente_marca")
+SubObjectPropertyOf(<http://webprotege.stanford.edu/R7ssSFVzhirD7jHVtJplwAv> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/R7ssSFVzhirD7jHVtJplwAv> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/R7ssSFVzhirD7jHVtJplwAv> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca>)
+
+# Object Property: <http://webprotege.stanford.edu/R87ESHn7KeUYK2b7rktl741> (marca_componente)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R87ESHn7KeUYK2b7rktl741> "marca_componente")
+SubObjectPropertyOf(<http://webprotege.stanford.edu/R87ESHn7KeUYK2b7rktl741> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/R87ESHn7KeUYK2b7rktl741> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/R87ESHn7KeUYK2b7rktl741> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+
+# Object Property: <http://webprotege.stanford.edu/R8A1W4xtsFn2WLEzv2aWodu> (perteneceA)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8A1W4xtsFn2WLEzv2aWodu> "perteneceA")
+SubObjectPropertyOf(<http://webprotege.stanford.edu/R8A1W4xtsFn2WLEzv2aWodu> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/R8A1W4xtsFn2WLEzv2aWodu> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/R8A1W4xtsFn2WLEzv2aWodu> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>)
+
+# Object Property: <http://webprotege.stanford.edu/RC0hO3iSR9PoZnn7SBvq4oF> (tieneComponente)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RC0hO3iSR9PoZnn7SBvq4oF> "tieneComponente")
+SubObjectPropertyOf(<http://webprotege.stanford.edu/RC0hO3iSR9PoZnn7SBvq4oF> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/RC0hO3iSR9PoZnn7SBvq4oF> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/RC0hO3iSR9PoZnn7SBvq4oF> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+
+# Object Property: <http://webprotege.stanford.edu/RCqxFtbmUCdCYbhKblc6pQJ> (marca_computadora)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCqxFtbmUCdCYbhKblc6pQJ> "marca_computadora")
+SubObjectPropertyOf(<http://webprotege.stanford.edu/RCqxFtbmUCdCYbhKblc6pQJ> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/RCqxFtbmUCdCYbhKblc6pQJ> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/RCqxFtbmUCdCYbhKblc6pQJ> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>)
+
+# Object Property: <http://webprotege.stanford.edu/RDPDmWE2W0A9hb7G2EEB9pH> (uso_computadora)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDPDmWE2W0A9hb7G2EEB9pH> "uso_computadora")
+SubObjectPropertyOf(<http://webprotege.stanford.edu/RDPDmWE2W0A9hb7G2EEB9pH> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/RDPDmWE2W0A9hb7G2EEB9pH> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/RDPDmWE2W0A9hb7G2EEB9pH> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>)
+
+# Object Property: <http://webprotege.stanford.edu/RvSVzAdzDwXcqXV6cFS6aD> (computadora_componente)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RvSVzAdzDwXcqXV6cFS6aD> "computadora_componente")
+SubObjectPropertyOf(<http://webprotege.stanford.edu/RvSVzAdzDwXcqXV6cFS6aD> owl:topObjectProperty)
+ObjectPropertyDomain(<http://webprotege.stanford.edu/RvSVzAdzDwXcqXV6cFS6aD> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>)
+ObjectPropertyRange(<http://webprotege.stanford.edu/RvSVzAdzDwXcqXV6cFS6aD> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+
+# Object Property: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_marca> (computadora_marca)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_marca> "computadora_marca")
+SubObjectPropertyOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_marca> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_marca> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>)
+ObjectPropertyRange(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_marca> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca>)
+
+# Object Property: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_uso> (computadora_uso)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_uso> "computadora_uso")
+SubObjectPropertyOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_uso> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_uso> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>)
+ObjectPropertyRange(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#computadora_uso> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://webprotege.stanford.edu/R0PlBlbSLIv3asdnLXhD6h> (tipo_comp)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R0PlBlbSLIv3asdnLXhD6h> "tipo_comp")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R0PlBlbSLIv3asdnLXhD6h> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R0PlBlbSLIv3asdnLXhD6h> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+DataPropertyRange(<http://webprotege.stanford.edu/R0PlBlbSLIv3asdnLXhD6h> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> (tipo_marca)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> "tipo_marca")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca>)
+DataPropertyRange(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH> (ancho_banda)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH> "ancho_banda")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH> <http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0>)
+DataPropertyRange(<http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/R7QNHPSXmAz6klJtNaHcQc7> (segun_uso)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7QNHPSXmAz6klJtNaHcQc7> "segun_uso")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R7QNHPSXmAz6klJtNaHcQc7> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R7QNHPSXmAz6klJtNaHcQc7> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso>)
+DataPropertyRange(<http://webprotege.stanford.edu/R7QNHPSXmAz6klJtNaHcQc7> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> (modelo_computadora)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> "modelo_computadora")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>)
+DataPropertyRange(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> (fabricante)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> "fabricante")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca>)
+DataPropertyRange(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/R7k9BtkyCASZjdyxag4H9H1> (memoria)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7k9BtkyCASZjdyxag4H9H1> "memoria")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R7k9BtkyCASZjdyxag4H9H1> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R7k9BtkyCASZjdyxag4H9H1> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria>)
+DataPropertyRange(<http://webprotege.stanford.edu/R7k9BtkyCASZjdyxag4H9H1> xsd:int)
+
+# Data Property: <http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> (anio_fabricacion)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> "anio_fabricacion")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>)
+DataPropertyRange(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/R7nGYbafaPRMRXIN7wIdKkH> (almacenamiento)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7nGYbafaPRMRXIN7wIdKkH> "almacenamiento")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R7nGYbafaPRMRXIN7wIdKkH> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R7nGYbafaPRMRXIN7wIdKkH> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento>)
+DataPropertyRange(<http://webprotege.stanford.edu/R7nGYbafaPRMRXIN7wIdKkH> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/R7op15BRFne6QK2Eyf85KCm> (procesador)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7op15BRFne6QK2Eyf85KCm> "procesador")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R7op15BRFne6QK2Eyf85KCm> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R7op15BRFne6QK2Eyf85KCm> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador>)
+DataPropertyRange(<http://webprotege.stanford.edu/R7op15BRFne6QK2Eyf85KCm> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/R8Tnq7GUcENYzdcmyLsoiCp> (refrigeracion)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8Tnq7GUcENYzdcmyLsoiCp> "refrigeracion")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8Tnq7GUcENYzdcmyLsoiCp> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R8Tnq7GUcENYzdcmyLsoiCp> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion>)
+DataPropertyRange(<http://webprotege.stanford.edu/R8Tnq7GUcENYzdcmyLsoiCp> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/R8bhR8cropJuoJ4FroMYguQ> (modelo_componente)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8bhR8cropJuoJ4FroMYguQ> "modelo_componente")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8bhR8cropJuoJ4FroMYguQ> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R8bhR8cropJuoJ4FroMYguQ> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+DataPropertyRange(<http://webprotege.stanford.edu/R8bhR8cropJuoJ4FroMYguQ> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/R8ktfbxkHqBHqJRnOX0LCh8> (precio_comp)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8ktfbxkHqBHqJRnOX0LCh8> "precio_comp")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8ktfbxkHqBHqJRnOX0LCh8> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R8ktfbxkHqBHqJRnOX0LCh8> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+DataPropertyRange(<http://webprotege.stanford.edu/R8ktfbxkHqBHqJRnOX0LCh8> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> (origen)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> "origen")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca>)
+DataPropertyRange(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C> (ruido)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C> "ruido")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion>)
+DataPropertyRange(<http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB> (num_slots_ram)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB> "num_slots_ram")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre>)
+DataPropertyRange(<http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB> xsd:int)
+
+# Data Property: <http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt> (num_ventiladores)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt> "num_ventiladores")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion>)
+DataPropertyRange(<http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt> xsd:int)
+
+# Data Property: <http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG> (descripcion)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG> "descripcion")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso>)
+DataPropertyRange(<http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RBvBVdjBfH9M5GEOtN5TrqR> (marca)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBvBVdjBfH9M5GEOtN5TrqR> "marca")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RBvBVdjBfH9M5GEOtN5TrqR> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RBvBVdjBfH9M5GEOtN5TrqR> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca>)
+DataPropertyRange(<http://webprotege.stanford.edu/RBvBVdjBfH9M5GEOtN5TrqR> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> (nombre_marca)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> "nombre_marca")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca>)
+DataPropertyRange(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu> (consumo_energia)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu> "consumo_energia")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso>)
+DataPropertyRange(<http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> (precio_computadora)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> "precio_computadora")
+DataPropertyDomain(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>)
+DataPropertyRange(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> xsd:decimal)
+
+# Data Property: <http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx> (frecuencia_base_procesador)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx> "frecuencia_base_procesador")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador>)
+DataPropertyRange(<http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh> (num_pines)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh> "num_pines")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh> xsd:int)
+
+# Data Property: <http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h> (velocidad_reloj)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h> "velocidad_reloj")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RDrVGt7fJmTgAfTd3mBd8f6> (num_nucleos_memoria)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDrVGt7fJmTgAfTd3mBd8f6> "num_nucleos_memoria")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDrVGt7fJmTgAfTd3mBd8f6> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDrVGt7fJmTgAfTd3mBd8f6> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDrVGt7fJmTgAfTd3mBd8f6> xsd:int)
+
+# Data Property: <http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1> (velocidad_lectura)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1> "velocidad_lectura")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW> (velocidad)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW> "velocidad")
+SubDataPropertyOf(<http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria>)
+DataPropertyRange(<http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL> (num_hilos)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL> "num_hilos")
+SubDataPropertyOf(<http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador>)
+DataPropertyRange(<http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL> xsd:int)
+
+# Data Property: <http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw> (nombre_segun_uso)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw> "nombre_segun_uso")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso>)
+DataPropertyRange(<http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e> (capacidad_memoria)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e> "capacidad_memoria")
+SubDataPropertyOf(<http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria>)
+DataPropertyRange(<http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> (sector_tecnologico)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> "sector_tecnologico")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca>)
+DataPropertyRange(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr> (velocidad_escritura)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr> "velocidad_escritura")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento>)
+DataPropertyRange(<http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RocDMCAWkodOyBK0MGJ6xx> (placaMadre)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RocDMCAWkodOyBK0MGJ6xx> "placaMadre")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RocDMCAWkodOyBK0MGJ6xx> owl:topDataProperty)
+FunctionalDataProperty(<http://webprotege.stanford.edu/RocDMCAWkodOyBK0MGJ6xx>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RocDMCAWkodOyBK0MGJ6xx> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre>)
+DataPropertyRange(<http://webprotege.stanford.edu/RocDMCAWkodOyBK0MGJ6xx> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> (tipo_computador)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> "tipo_computador")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>)
+DataPropertyRange(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RuRWHpoaedIKlGeazpcAV9> (nombre_componente)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RuRWHpoaedIKlGeazpcAV9> "nombre_componente")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RuRWHpoaedIKlGeazpcAV9> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RuRWHpoaedIKlGeazpcAV9> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+DataPropertyRange(<http://webprotege.stanford.edu/RuRWHpoaedIKlGeazpcAV9> xsd:string)
+
+# Data Property: <http://webprotege.stanford.edu/RzgXE37VDqXwHT9k3TzZ9j> (tarjeta_grafica)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RzgXE37VDqXwHT9k3TzZ9j> "tarjeta_grafica")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RzgXE37VDqXwHT9k3TzZ9j> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RzgXE37VDqXwHT9k3TzZ9j> <http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0>)
+DataPropertyRange(<http://webprotege.stanford.edu/RzgXE37VDqXwHT9k3TzZ9j> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_almacenamiento> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_almacenamiento>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_almacenamiento> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_almacenamiento> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento>)
+DataPropertyRange(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_almacenamiento> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_placa_madre> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_placa_madre>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_placa_madre> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_placa_madre> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre>)
+DataPropertyRange(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_placa_madre> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_tarjeta_grafica> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_tarjeta_grafica>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_tarjeta_grafica> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_tarjeta_grafica> <http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0>)
+DataPropertyRange(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_tarjeta_grafica> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#frecuencia_base_tarjeta_grafica> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#frecuencia_base_tarjeta_grafica>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#frecuencia_base_tarjeta_grafica> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#frecuencia_base_tarjeta_grafica> <http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0>)
+DataPropertyRange(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#frecuencia_base_tarjeta_grafica> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#num_nucleos_procesador> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#num_nucleos_procesador>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#num_nucleos_procesador> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#num_nucleos_procesador> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador>)
+DataPropertyRange(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#num_nucleos_procesador> xsd:int)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0> (TargetaGrafica)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0> "TargetaGrafica")
+SubClassOf(<http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+
+# Class: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento>)
+
+SubClassOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+
+# Class: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+
+SubClassOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente> owl:Thing)
+
+# Class: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora>)
+
+
+# Class: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca>)
+
+SubClassOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> owl:Thing)
+
+# Class: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria>)
+
+SubClassOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+
+# Class: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre>)
+
+SubClassOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+
+# Class: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador>)
+
+SubClassOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+
+# Class: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion>)
+
+SubClassOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente>)
+
+# Class: <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso> (<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso>)
+
+SubClassOf(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso> owl:Thing)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://webprotege.stanford.edu/R3ViFj1F8ob21S2pzikGE4> (ComponenteRefrigeracion3)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R3ViFj1F8ob21S2pzikGE4> "ComponenteRefrigeracion3")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion> <http://webprotege.stanford.edu/R3ViFj1F8ob21S2pzikGE4>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C> <http://webprotege.stanford.edu/R3ViFj1F8ob21S2pzikGE4> "24.6dB")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt> <http://webprotege.stanford.edu/R3ViFj1F8ob21S2pzikGE4> "2"^^xsd:integer)
+
+# Individual: <http://webprotege.stanford.edu/R63SxRgndozle9EYxWEKuU> (ComponenteProcesador1)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R63SxRgndozle9EYxWEKuU> "ComponenteProcesador1")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador> <http://webprotege.stanford.edu/R63SxRgndozle9EYxWEKuU>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx> <http://webprotege.stanford.edu/R63SxRgndozle9EYxWEKuU> "3.7 GHz")
+DataPropertyAssertion(<http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL> <http://webprotege.stanford.edu/R63SxRgndozle9EYxWEKuU> "12"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#num_nucleos_procesador> <http://webprotege.stanford.edu/R63SxRgndozle9EYxWEKuU> "6"^^xsd:integer)
+
+# Individual: <http://webprotege.stanford.edu/R6k33nFEWEOQl527Ytw4QE> (MarcaComputadora1)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R6k33nFEWEOQl527Ytw4QE> "MarcaComputadora1")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/R6k33nFEWEOQl527Ytw4QE>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/R6k33nFEWEOQl527Ytw4QE> "Lenovo_group")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/R6k33nFEWEOQl527Ytw4QE> "China")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/R6k33nFEWEOQl527Ytw4QE> "Computadoras_portatiles")
+
+# Individual: <http://webprotege.stanford.edu/R70rZtGa6RWE1miYl5qTxAB> (Computadora9)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R70rZtGa6RWE1miYl5qTxAB> "Computadora9")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora> <http://webprotege.stanford.edu/R70rZtGa6RWE1miYl5qTxAB>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> <http://webprotege.stanford.edu/R70rZtGa6RWE1miYl5qTxAB> "HP Spectre x360")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> <http://webprotege.stanford.edu/R70rZtGa6RWE1miYl5qTxAB> "2019")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> <http://webprotege.stanford.edu/R70rZtGa6RWE1miYl5qTxAB> "1299"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> <http://webprotege.stanford.edu/R70rZtGa6RWE1miYl5qTxAB> "Portatil")
+
+# Individual: <http://webprotege.stanford.edu/R74fgCaNtBKmSEny9I9P2d4> (ComponenteAlmacenamiento6)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R74fgCaNtBKmSEny9I9P2d4> "ComponenteAlmacenamiento6")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento> <http://webprotege.stanford.edu/R74fgCaNtBKmSEny9I9P2d4>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1> <http://webprotege.stanford.edu/R74fgCaNtBKmSEny9I9P2d4> "540MB/s")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr> <http://webprotege.stanford.edu/R74fgCaNtBKmSEny9I9P2d4> "560MB/s")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_almacenamiento> <http://webprotege.stanford.edu/R74fgCaNtBKmSEny9I9P2d4> "4TB")
+
+# Individual: <http://webprotege.stanford.edu/R752wsUDrUTJeGKhMWQRwHP> (Conputadora10)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R752wsUDrUTJeGKhMWQRwHP> "Conputadora10")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora> <http://webprotege.stanford.edu/R752wsUDrUTJeGKhMWQRwHP>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> <http://webprotege.stanford.edu/R752wsUDrUTJeGKhMWQRwHP> "Dell XPS 13")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> <http://webprotege.stanford.edu/R752wsUDrUTJeGKhMWQRwHP> "2020")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> <http://webprotege.stanford.edu/R752wsUDrUTJeGKhMWQRwHP> "1199"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> <http://webprotege.stanford.edu/R752wsUDrUTJeGKhMWQRwHP> "Portatil")
+
+# Individual: <http://webprotege.stanford.edu/R77vyJV5aSo3W0MqUZ9ERcS> (ComponentePlacaMadre3)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R77vyJV5aSo3W0MqUZ9ERcS> "ComponentePlacaMadre3")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre> <http://webprotege.stanford.edu/R77vyJV5aSo3W0MqUZ9ERcS>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB> <http://webprotege.stanford.edu/R77vyJV5aSo3W0MqUZ9ERcS> "4"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h> <http://webprotege.stanford.edu/R77vyJV5aSo3W0MqUZ9ERcS> "3600MHz")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_placa_madre> <http://webprotege.stanford.edu/R77vyJV5aSo3W0MqUZ9ERcS> "128GB")
+
+# Individual: <http://webprotege.stanford.edu/R7MjTtjDkwuloluYtReqdCz> (MarcaComponente5)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7MjTtjDkwuloluYtReqdCz> "MarcaComponente5")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/R7MjTtjDkwuloluYtReqdCz>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/R7MjTtjDkwuloluYtReqdCz> "KingstonTechnologyCorp")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/R7MjTtjDkwuloluYtReqdCz> "EEUU")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/R7MjTtjDkwuloluYtReqdCz> "ProductosMemoriaInformatiica")
+
+# Individual: <http://webprotege.stanford.edu/R7Vj036BJWfRDXoZIXDcOsy> (Marca9)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7Vj036BJWfRDXoZIXDcOsy> "Marca9")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/R7Vj036BJWfRDXoZIXDcOsy>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> <http://webprotege.stanford.edu/R7Vj036BJWfRDXoZIXDcOsy> "Marca componente")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/R7Vj036BJWfRDXoZIXDcOsy> "AMD")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/R7Vj036BJWfRDXoZIXDcOsy> "Estados Unidos")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> <http://webprotege.stanford.edu/R7Vj036BJWfRDXoZIXDcOsy> "Radeon")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/R7Vj036BJWfRDXoZIXDcOsy> "Tarjeta Gráfica")
+
+# Individual: <http://webprotege.stanford.edu/R7byDUuFSWgL5RifHXLU6bM> (Computadora4)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7byDUuFSWgL5RifHXLU6bM> "Computadora4")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora> <http://webprotege.stanford.edu/R7byDUuFSWgL5RifHXLU6bM>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> <http://webprotege.stanford.edu/R7byDUuFSWgL5RifHXLU6bM> "Microsoft Surface Studio 2")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> <http://webprotege.stanford.edu/R7byDUuFSWgL5RifHXLU6bM> "2022")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> <http://webprotege.stanford.edu/R7byDUuFSWgL5RifHXLU6bM> "2999"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> <http://webprotege.stanford.edu/R7byDUuFSWgL5RifHXLU6bM> "Escritorio")
+
+# Individual: <http://webprotege.stanford.edu/R7kgguftK5Kd3L7ZYWM7N7w> (Computadora1)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7kgguftK5Kd3L7ZYWM7N7w> "Computadora1")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora> <http://webprotege.stanford.edu/R7kgguftK5Kd3L7ZYWM7N7w>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> <http://webprotege.stanford.edu/R7kgguftK5Kd3L7ZYWM7N7w> "Dell XPS 13")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> <http://webprotege.stanford.edu/R7kgguftK5Kd3L7ZYWM7N7w> "2021")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> <http://webprotege.stanford.edu/R7kgguftK5Kd3L7ZYWM7N7w> "2399"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> <http://webprotege.stanford.edu/R7kgguftK5Kd3L7ZYWM7N7w> "Portatil")
+
+# Individual: <http://webprotege.stanford.edu/R7mEVcp6i8548zg0lZncVDw> (ComponentePlacaMadre1)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7mEVcp6i8548zg0lZncVDw> "ComponentePlacaMadre1")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre> <http://webprotege.stanford.edu/R7mEVcp6i8548zg0lZncVDw>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB> <http://webprotege.stanford.edu/R7mEVcp6i8548zg0lZncVDw> "2"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h> <http://webprotege.stanford.edu/R7mEVcp6i8548zg0lZncVDw> "2933MHz")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_placa_madre> <http://webprotege.stanford.edu/R7mEVcp6i8548zg0lZncVDw> "32GB")
+
+# Individual: <http://webprotege.stanford.edu/R7ok1Yf1ccLb1M03EwMCOmR> (ComponenteMemoriaRam4)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7ok1Yf1ccLb1M03EwMCOmR> "ComponenteMemoriaRam4")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria> <http://webprotege.stanford.edu/R7ok1Yf1ccLb1M03EwMCOmR>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW> <http://webprotege.stanford.edu/R7ok1Yf1ccLb1M03EwMCOmR> "3200MHz")
+DataPropertyAssertion(<http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e> <http://webprotege.stanford.edu/R7ok1Yf1ccLb1M03EwMCOmR> "16GB")
+
+# Individual: <http://webprotege.stanford.edu/R7pGJNYNmZc4tAYqTs7P8bN> (ComponentePlacaMadre4)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7pGJNYNmZc4tAYqTs7P8bN> "ComponentePlacaMadre4")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre> <http://webprotege.stanford.edu/R7pGJNYNmZc4tAYqTs7P8bN>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB> <http://webprotege.stanford.edu/R7pGJNYNmZc4tAYqTs7P8bN> "4"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h> <http://webprotege.stanford.edu/R7pGJNYNmZc4tAYqTs7P8bN> "4000MHz")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_placa_madre> <http://webprotege.stanford.edu/R7pGJNYNmZc4tAYqTs7P8bN> "128GB")
+
+# Individual: <http://webprotege.stanford.edu/R7xOaxK8jYsv0V3oBiNVXxt> (MarcaComputadora3)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7xOaxK8jYsv0V3oBiNVXxt> "MarcaComputadora3")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/R7xOaxK8jYsv0V3oBiNVXxt>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/R7xOaxK8jYsv0V3oBiNVXxt> "HewlettPackardCompany")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/R7xOaxK8jYsv0V3oBiNVXxt> "California_EEUU")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/R7xOaxK8jYsv0V3oBiNVXxt> "SoftwareHardware")
+
+# Individual: <http://webprotege.stanford.edu/R8BMaQ5YVYJGYUz5CB5LRRw> (ComponenteProcesador4)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8BMaQ5YVYJGYUz5CB5LRRw> "ComponenteProcesador4")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador> <http://webprotege.stanford.edu/R8BMaQ5YVYJGYUz5CB5LRRw>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx> <http://webprotege.stanford.edu/R8BMaQ5YVYJGYUz5CB5LRRw> "3.7 GHz")
+DataPropertyAssertion(<http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL> <http://webprotege.stanford.edu/R8BMaQ5YVYJGYUz5CB5LRRw> "24"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#num_nucleos_procesador> <http://webprotege.stanford.edu/R8BMaQ5YVYJGYUz5CB5LRRw> "12"^^xsd:integer)
+
+# Individual: <http://webprotege.stanford.edu/R8DQ1qqDfiOVxzyWMyhlmjQ> (Computadora8)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8DQ1qqDfiOVxzyWMyhlmjQ> "Computadora8")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora> <http://webprotege.stanford.edu/R8DQ1qqDfiOVxzyWMyhlmjQ>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> <http://webprotege.stanford.edu/R8DQ1qqDfiOVxzyWMyhlmjQ> "Lenovo ThinkPad X1")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> <http://webprotege.stanford.edu/R8DQ1qqDfiOVxzyWMyhlmjQ> "2022")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> <http://webprotege.stanford.edu/R8DQ1qqDfiOVxzyWMyhlmjQ> "1499"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> <http://webprotege.stanford.edu/R8DQ1qqDfiOVxzyWMyhlmjQ> "Portatil")
+
+# Individual: <http://webprotege.stanford.edu/R8UtXqowDuncvUPLO5Gxs4P> (Marca6)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8UtXqowDuncvUPLO5Gxs4P> "Marca6")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/R8UtXqowDuncvUPLO5Gxs4P>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> <http://webprotege.stanford.edu/R8UtXqowDuncvUPLO5Gxs4P> "Marca componente")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/R8UtXqowDuncvUPLO5Gxs4P> "Intel")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/R8UtXqowDuncvUPLO5Gxs4P> "Estados Unidos")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> <http://webprotege.stanford.edu/R8UtXqowDuncvUPLO5Gxs4P> "Core")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/R8UtXqowDuncvUPLO5Gxs4P> "Procesadores")
+
+# Individual: <http://webprotege.stanford.edu/R8XKsUWF8azHxhXQA5akrgK> (ComponenteTarjetaGrafica4)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8XKsUWF8azHxhXQA5akrgK> "ComponenteTarjetaGrafica4")
+ClassAssertion(<http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0> <http://webprotege.stanford.edu/R8XKsUWF8azHxhXQA5akrgK>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH> <http://webprotege.stanford.edu/R8XKsUWF8azHxhXQA5akrgK> "672GB/s")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_tarjeta_grafica> <http://webprotege.stanford.edu/R8XKsUWF8azHxhXQA5akrgK> "12GB")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#frecuencia_base_tarjeta_grafica> <http://webprotege.stanford.edu/R8XKsUWF8azHxhXQA5akrgK> "1700MHz")
+
+# Individual: <http://webprotege.stanford.edu/R8ax6CirsUiBxfZieX41sP7> (MarcaComponente3)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8ax6CirsUiBxfZieX41sP7> "MarcaComponente3")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/R8ax6CirsUiBxfZieX41sP7>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/R8ax6CirsUiBxfZieX41sP7> "Micro_Star_International")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/R8ax6CirsUiBxfZieX41sP7> "Taiwan")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/R8ax6CirsUiBxfZieX41sP7> "ProductosIT")
+
+# Individual: <http://webprotege.stanford.edu/R8baNAbtFK23vMIiT6mLGfo> (Marca2)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8baNAbtFK23vMIiT6mLGfo> "Marca2")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/R8baNAbtFK23vMIiT6mLGfo>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> <http://webprotege.stanford.edu/R8baNAbtFK23vMIiT6mLGfo> "Marca computadora")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/R8baNAbtFK23vMIiT6mLGfo> "Dell Computer Corporation")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/R8baNAbtFK23vMIiT6mLGfo> "Estados Unidos")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> <http://webprotege.stanford.edu/R8baNAbtFK23vMIiT6mLGfo> "XPS")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/R8baNAbtFK23vMIiT6mLGfo> "Informatica")
+
+# Individual: <http://webprotege.stanford.edu/R8c2XUZicivg8bz0KAOkKUB> (ComponenteRefrigeracion2)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8c2XUZicivg8bz0KAOkKUB> "ComponenteRefrigeracion2")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion> <http://webprotege.stanford.edu/R8c2XUZicivg8bz0KAOkKUB>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C> <http://webprotege.stanford.edu/R8c2XUZicivg8bz0KAOkKUB> "24dB")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt> <http://webprotege.stanford.edu/R8c2XUZicivg8bz0KAOkKUB> "2"^^xsd:integer)
+
+# Individual: <http://webprotege.stanford.edu/R8psNOGNJH4biioB8NNzY25> (ComponenteProcesador3)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8psNOGNJH4biioB8NNzY25> "ComponenteProcesador3")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador> <http://webprotege.stanford.edu/R8psNOGNJH4biioB8NNzY25>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx> <http://webprotege.stanford.edu/R8psNOGNJH4biioB8NNzY25> "2.2 GHz")
+DataPropertyAssertion(<http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL> <http://webprotege.stanford.edu/R8psNOGNJH4biioB8NNzY25> "20"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#num_nucleos_procesador> <http://webprotege.stanford.edu/R8psNOGNJH4biioB8NNzY25> "10"^^xsd:integer)
+
+# Individual: <http://webprotege.stanford.edu/R91vH68IXHPzrrCf2lYeuvO> (ComponentePlacaMadre2)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R91vH68IXHPzrrCf2lYeuvO> "ComponentePlacaMadre2")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre> <http://webprotege.stanford.edu/R91vH68IXHPzrrCf2lYeuvO>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB> <http://webprotege.stanford.edu/R91vH68IXHPzrrCf2lYeuvO> "4"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h> <http://webprotege.stanford.edu/R91vH68IXHPzrrCf2lYeuvO> "3200MHz")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_placa_madre> <http://webprotege.stanford.edu/R91vH68IXHPzrrCf2lYeuvO> "64GB")
+
+# Individual: <http://webprotege.stanford.edu/R97NEBJVKxubeOHB2LmQ0Zi> (MarcaComponente2)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R97NEBJVKxubeOHB2LmQ0Zi> "MarcaComponente2")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/R97NEBJVKxubeOHB2LmQ0Zi>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/R97NEBJVKxubeOHB2LmQ0Zi> "IntelCorporation")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/R97NEBJVKxubeOHB2LmQ0Zi> "California")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/R97NEBJVKxubeOHB2LmQ0Zi> "ProcesadoresComputacionales")
+
+# Individual: <http://webprotege.stanford.edu/R9BtrPwkyRGW2UKyic2CUtl> (SegunUso4)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9BtrPwkyRGW2UKyic2CUtl> "SegunUso4")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso> <http://webprotege.stanford.edu/R9BtrPwkyRGW2UKyic2CUtl>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG> <http://webprotege.stanford.edu/R9BtrPwkyRGW2UKyic2CUtl> "Es una computadora que se caracteriza por su fácil portabilidad, diseñada para editar textos, navegar en la web y utilizar aplicaciones educativas.")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu> <http://webprotege.stanford.edu/R9BtrPwkyRGW2UKyic2CUtl> "40 W")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw> <http://webprotege.stanford.edu/R9BtrPwkyRGW2UKyic2CUtl> "Educativo")
+
+# Individual: <http://webprotege.stanford.edu/R9ITNZ6jBhH2RbWKLFS2gzC> (Marca8)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9ITNZ6jBhH2RbWKLFS2gzC> "Marca8")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/R9ITNZ6jBhH2RbWKLFS2gzC>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> <http://webprotege.stanford.edu/R9ITNZ6jBhH2RbWKLFS2gzC> "Marca componente")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/R9ITNZ6jBhH2RbWKLFS2gzC> "NVIDIA")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/R9ITNZ6jBhH2RbWKLFS2gzC> "Estados Unidos")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> <http://webprotege.stanford.edu/R9ITNZ6jBhH2RbWKLFS2gzC> "GeForze")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/R9ITNZ6jBhH2RbWKLFS2gzC> "Tarjeta Gráfica")
+
+# Individual: <http://webprotege.stanford.edu/R9KPUxHMtkgV0n8qXRxj9QL> (Computadora2)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9KPUxHMtkgV0n8qXRxj9QL> "Computadora2")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora> <http://webprotege.stanford.edu/R9KPUxHMtkgV0n8qXRxj9QL>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> <http://webprotege.stanford.edu/R9KPUxHMtkgV0n8qXRxj9QL> "Apple iMac 21.5\"")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> <http://webprotege.stanford.edu/R9KPUxHMtkgV0n8qXRxj9QL> "2020")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> <http://webprotege.stanford.edu/R9KPUxHMtkgV0n8qXRxj9QL> "1099"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> <http://webprotege.stanford.edu/R9KPUxHMtkgV0n8qXRxj9QL> "Escritorio")
+
+# Individual: <http://webprotege.stanford.edu/R9OXFOnZi8w82DofwXhR8Pm> (ComponenteRefrigeracion4)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9OXFOnZi8w82DofwXhR8Pm> "ComponenteRefrigeracion4")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion> <http://webprotege.stanford.edu/R9OXFOnZi8w82DofwXhR8Pm>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C> <http://webprotege.stanford.edu/R9OXFOnZi8w82DofwXhR8Pm> "21dB")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt> <http://webprotege.stanford.edu/R9OXFOnZi8w82DofwXhR8Pm> "2"^^xsd:integer)
+
+# Individual: <http://webprotege.stanford.edu/R9W9trHO116nljaOOt66cKK> (ComponenteAlmacenamiento5)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9W9trHO116nljaOOt66cKK> "ComponenteAlmacenamiento5")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento> <http://webprotege.stanford.edu/R9W9trHO116nljaOOt66cKK>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1> <http://webprotege.stanford.edu/R9W9trHO116nljaOOt66cKK> "560MB/s")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr> <http://webprotege.stanford.edu/R9W9trHO116nljaOOt66cKK> "530MB/s")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_almacenamiento> <http://webprotege.stanford.edu/R9W9trHO116nljaOOt66cKK> "2TB")
+
+# Individual: <http://webprotege.stanford.edu/R9ZtKJyq8SpHpN4QNMx0EBd> (SegunUso2)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9ZtKJyq8SpHpN4QNMx0EBd> "SegunUso2")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso> <http://webprotege.stanford.edu/R9ZtKJyq8SpHpN4QNMx0EBd>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG> <http://webprotege.stanford.edu/R9ZtKJyq8SpHpN4QNMx0EBd> "Es una computadora de escritorio equipada con 
+hardware de última generación especialmente para video juegos")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu> <http://webprotege.stanford.edu/R9ZtKJyq8SpHpN4QNMx0EBd> "500 W")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw> <http://webprotege.stanford.edu/R9ZtKJyq8SpHpN4QNMx0EBd> "Gamer")
+
+# Individual: <http://webprotege.stanford.edu/R9fiD85ILc5hiazCSrty57v> (MarcaComponente1)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9fiD85ILc5hiazCSrty57v> "MarcaComponente1")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/R9fiD85ILc5hiazCSrty57v>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/R9fiD85ILc5hiazCSrty57v> "AdvantechCorp")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/R9fiD85ILc5hiazCSrty57v> "Taiwan")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/R9fiD85ILc5hiazCSrty57v> "ComponentesInformaticos")
+
+# Individual: <http://webprotege.stanford.edu/R9kWeAME3LzRlJiuSf853jk> (ComponenteProcesador5)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9kWeAME3LzRlJiuSf853jk> "ComponenteProcesador5")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador> <http://webprotege.stanford.edu/R9kWeAME3LzRlJiuSf853jk>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx> <http://webprotege.stanford.edu/R9kWeAME3LzRlJiuSf853jk> "3.2 GHz")
+DataPropertyAssertion(<http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL> <http://webprotege.stanford.edu/R9kWeAME3LzRlJiuSf853jk> "24"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#num_nucleos_procesador> <http://webprotege.stanford.edu/R9kWeAME3LzRlJiuSf853jk> "16"^^xsd:integer)
+
+# Individual: <http://webprotege.stanford.edu/R9to37skHVLCz6fSMNJPFOC> (Marca3)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9to37skHVLCz6fSMNJPFOC> "Marca3")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/R9to37skHVLCz6fSMNJPFOC>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> <http://webprotege.stanford.edu/R9to37skHVLCz6fSMNJPFOC> "Marca computadora")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/R9to37skHVLCz6fSMNJPFOC> "Lenovo")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/R9to37skHVLCz6fSMNJPFOC> "China")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> <http://webprotege.stanford.edu/R9to37skHVLCz6fSMNJPFOC> "ThinkPad")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/R9to37skHVLCz6fSMNJPFOC> "Informática")
+
+# Individual: <http://webprotege.stanford.edu/RB76ojMBSOMYKGFUIjgHjln> (ComponenteMemoriaRam2)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB76ojMBSOMYKGFUIjgHjln> "ComponenteMemoriaRam2")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria> <http://webprotege.stanford.edu/RB76ojMBSOMYKGFUIjgHjln>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh> <http://webprotege.stanford.edu/RB76ojMBSOMYKGFUIjgHjln> "260"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW> <http://webprotege.stanford.edu/RB76ojMBSOMYKGFUIjgHjln> "2200MHz")
+DataPropertyAssertion(<http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e> <http://webprotege.stanford.edu/RB76ojMBSOMYKGFUIjgHjln> "4GB")
+
+# Individual: <http://webprotege.stanford.edu/RB8D8NKFRDkUm2iQPNt96zu> (ComponenteTarjetaGrafica2)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB8D8NKFRDkUm2iQPNt96zu> "ComponenteTarjetaGrafica2")
+ClassAssertion(<http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0> <http://webprotege.stanford.edu/RB8D8NKFRDkUm2iQPNt96zu>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH> <http://webprotege.stanford.edu/RB8D8NKFRDkUm2iQPNt96zu> "512GB/s")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_tarjeta_grafica> <http://webprotege.stanford.edu/RB8D8NKFRDkUm2iQPNt96zu> "10GB")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#frecuencia_base_tarjeta_grafica> <http://webprotege.stanford.edu/RB8D8NKFRDkUm2iQPNt96zu> "1500MHz")
+
+# Individual: <http://webprotege.stanford.edu/RBNQ8gOiJ7AyZO8FRZkFmiv> (ComponenteTarjetaGrafica5)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBNQ8gOiJ7AyZO8FRZkFmiv> "ComponenteTarjetaGrafica5")
+ClassAssertion(<http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0> <http://webprotege.stanford.edu/RBNQ8gOiJ7AyZO8FRZkFmiv>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH> <http://webprotege.stanford.edu/RBNQ8gOiJ7AyZO8FRZkFmiv> "760GB/s")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_tarjeta_grafica> <http://webprotege.stanford.edu/RBNQ8gOiJ7AyZO8FRZkFmiv> "24GB")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#frecuencia_base_tarjeta_grafica> <http://webprotege.stanford.edu/RBNQ8gOiJ7AyZO8FRZkFmiv> "1800MHz")
+
+# Individual: <http://webprotege.stanford.edu/RBQe3CYqY1JgYiNpMiY4jiv> (Computadora5)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBQe3CYqY1JgYiNpMiY4jiv> "Computadora5")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora> <http://webprotege.stanford.edu/RBQe3CYqY1JgYiNpMiY4jiv>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> <http://webprotege.stanford.edu/RBQe3CYqY1JgYiNpMiY4jiv> "iMac 27\"")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> <http://webprotege.stanford.edu/RBQe3CYqY1JgYiNpMiY4jiv> "2019")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> <http://webprotege.stanford.edu/RBQe3CYqY1JgYiNpMiY4jiv> "1799"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> <http://webprotege.stanford.edu/RBQe3CYqY1JgYiNpMiY4jiv> "Escritorio")
+
+# Individual: <http://webprotege.stanford.edu/RBULjrPmRicmJN8X6NQsgK6> (ComponenteRefrigeración5)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBULjrPmRicmJN8X6NQsgK6> "ComponenteRefrigeración5")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion> <http://webprotege.stanford.edu/RBULjrPmRicmJN8X6NQsgK6>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C> <http://webprotege.stanford.edu/RBULjrPmRicmJN8X6NQsgK6> "30dB")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt> <http://webprotege.stanford.edu/RBULjrPmRicmJN8X6NQsgK6> "2"^^xsd:integer)
+
+# Individual: <http://webprotege.stanford.edu/RBYUxPji5jgD3CWP3SRWu1L> (Marca1)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBYUxPji5jgD3CWP3SRWu1L> "Marca1")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/RBYUxPji5jgD3CWP3SRWu1L>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> <http://webprotege.stanford.edu/RBYUxPji5jgD3CWP3SRWu1L> "Marca computadora")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/RBYUxPji5jgD3CWP3SRWu1L> "Apple Inc.")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/RBYUxPji5jgD3CWP3SRWu1L> "Estados Unidos")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> <http://webprotege.stanford.edu/RBYUxPji5jgD3CWP3SRWu1L> "Mack Book")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/RBYUxPji5jgD3CWP3SRWu1L> "Informática")
+
+# Individual: <http://webprotege.stanford.edu/RBbqCEE2lU7wSfLE3GQQUC7> (ComponenteAlmacenamiento3)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBbqCEE2lU7wSfLE3GQQUC7> "ComponenteAlmacenamiento3")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento> <http://webprotege.stanford.edu/RBbqCEE2lU7wSfLE3GQQUC7>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R0PlBlbSLIv3asdnLXhD6h> <http://webprotege.stanford.edu/RBbqCEE2lU7wSfLE3GQQUC7> "Interno")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8ktfbxkHqBHqJRnOX0LCh8> <http://webprotege.stanford.edu/RBbqCEE2lU7wSfLE3GQQUC7> "59.99"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1> <http://webprotege.stanford.edu/RBbqCEE2lU7wSfLE3GQQUC7> "550MB/s")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr> <http://webprotege.stanford.edu/RBbqCEE2lU7wSfLE3GQQUC7> "520MB/s")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RuRWHpoaedIKlGeazpcAV9> <http://webprotege.stanford.edu/RBbqCEE2lU7wSfLE3GQQUC7> "Crucial MX500")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_almacenamiento> <http://webprotege.stanford.edu/RBbqCEE2lU7wSfLE3GQQUC7> "500GB")
+
+# Individual: <http://webprotege.stanford.edu/RBgKfLFVpivsocTvz038iLL> (Marca5)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBgKfLFVpivsocTvz038iLL> "Marca5")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/RBgKfLFVpivsocTvz038iLL>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> <http://webprotege.stanford.edu/RBgKfLFVpivsocTvz038iLL> "Marca computadora")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/RBgKfLFVpivsocTvz038iLL> "ASUS")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/RBgKfLFVpivsocTvz038iLL> "Taiwán")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> <http://webprotege.stanford.edu/RBgKfLFVpivsocTvz038iLL> "ROG")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/RBgKfLFVpivsocTvz038iLL> "Gaming")
+
+# Individual: <http://webprotege.stanford.edu/RBhxfJmnZGEIOobLZELOZM3> (ComponenteMemoriaRam3)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBhxfJmnZGEIOobLZELOZM3> "ComponenteMemoriaRam3")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria> <http://webprotege.stanford.edu/RBhxfJmnZGEIOobLZELOZM3>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh> <http://webprotege.stanford.edu/RBhxfJmnZGEIOobLZELOZM3> "260"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW> <http://webprotege.stanford.edu/RBhxfJmnZGEIOobLZELOZM3> "2400MHz")
+DataPropertyAssertion(<http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e> <http://webprotege.stanford.edu/RBhxfJmnZGEIOobLZELOZM3> "8GB")
+
+# Individual: <http://webprotege.stanford.edu/RBnut3GQC6o4r1PbP28wk6u> (MarcaComputadora4)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBnut3GQC6o4r1PbP28wk6u> "MarcaComputadora4")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/RBnut3GQC6o4r1PbP28wk6u>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/RBnut3GQC6o4r1PbP28wk6u> "Acer_Inc")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/RBnut3GQC6o4r1PbP28wk6u> "China")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/RBnut3GQC6o4r1PbP28wk6u> "Computacion")
+
+# Individual: <http://webprotege.stanford.edu/RBqVzvtp4zZbUjxhfzTg7wi> (ComponenteAlmacenamiento4)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBqVzvtp4zZbUjxhfzTg7wi> "ComponenteAlmacenamiento4")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento> <http://webprotege.stanford.edu/RBqVzvtp4zZbUjxhfzTg7wi>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1> <http://webprotege.stanford.edu/RBqVzvtp4zZbUjxhfzTg7wi> "540MB/s")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr> <http://webprotege.stanford.edu/RBqVzvtp4zZbUjxhfzTg7wi> "500MB/s")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_almacenamiento> <http://webprotege.stanford.edu/RBqVzvtp4zZbUjxhfzTg7wi> "1TB")
+
+# Individual: <http://webprotege.stanford.edu/RC9BIPfQ19IlBsuvnA4YRaK> (Marca10)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RC9BIPfQ19IlBsuvnA4YRaK> "Marca10")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/RC9BIPfQ19IlBsuvnA4YRaK>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> <http://webprotege.stanford.edu/RC9BIPfQ19IlBsuvnA4YRaK> "Marca componente")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/RC9BIPfQ19IlBsuvnA4YRaK> "Kingston Technology")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/RC9BIPfQ19IlBsuvnA4YRaK> "Estados Unidos")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> <http://webprotege.stanford.edu/RC9BIPfQ19IlBsuvnA4YRaK> "HiperX")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/RC9BIPfQ19IlBsuvnA4YRaK> "Memoria RAM")
+
+# Individual: <http://webprotege.stanford.edu/RCG3qpWEMdYUQKKqDljtYer> (MarcaComputadora5)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCG3qpWEMdYUQKKqDljtYer> "MarcaComputadora5")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/RCG3qpWEMdYUQKKqDljtYer>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/RCG3qpWEMdYUQKKqDljtYer> "Asus")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/RCG3qpWEMdYUQKKqDljtYer> "Taiwan")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/RCG3qpWEMdYUQKKqDljtYer> "Hardware")
+
+# Individual: <http://webprotege.stanford.edu/RCI8Od8NFqyLgPC2FYOhx6M> (SegunUso3)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCI8Od8NFqyLgPC2FYOhx6M> "SegunUso3")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso> <http://webprotege.stanford.edu/RCI8Od8NFqyLgPC2FYOhx6M>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG> <http://webprotege.stanford.edu/RCI8Od8NFqyLgPC2FYOhx6M> "Es una computadora que se enfoca en gestionar y almacenar la base de datos de una empresa, optimizando el rendimiento y seguridad.")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu> <http://webprotege.stanford.edu/RCI8Od8NFqyLgPC2FYOhx6M> "250 W")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw> <http://webprotege.stanford.edu/RCI8Od8NFqyLgPC2FYOhx6M> "Servidor")
+
+# Individual: <http://webprotege.stanford.edu/RCJvpH9ifAHI9mZWxji19GJ> (SegunUso5)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCJvpH9ifAHI9mZWxji19GJ> "SegunUso5")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso> <http://webprotege.stanford.edu/RCJvpH9ifAHI9mZWxji19GJ>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG> <http://webprotege.stanford.edu/RCJvpH9ifAHI9mZWxji19GJ> "Es una computadora diseñada para un uso personal como ser el manejo archivos multimedia, descargas, etc.")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu> <http://webprotege.stanford.edu/RCJvpH9ifAHI9mZWxji19GJ> "30 W")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw> <http://webprotege.stanford.edu/RCJvpH9ifAHI9mZWxji19GJ> "Personal")
+
+# Individual: <http://webprotege.stanford.edu/RCLaeMJ5CGmTGbYwQsXnm5z> (MarcaComponente4)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCLaeMJ5CGmTGbYwQsXnm5z> "MarcaComponente4")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/RCLaeMJ5CGmTGbYwQsXnm5z>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/RCLaeMJ5CGmTGbYwQsXnm5z> "AdvancedMicroDevices")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/RCLaeMJ5CGmTGbYwQsXnm5z> "EEUU")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/RCLaeMJ5CGmTGbYwQsXnm5z> "ProductosTecnologicos")
+
+# Individual: <http://webprotege.stanford.edu/RCWNzcm4Vy1xzCh5nkAu8UY> (ComponenteTarjetaGrafica3)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCWNzcm4Vy1xzCh5nkAu8UY> "ComponenteTarjetaGrafica3")
+ClassAssertion(<http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0> <http://webprotege.stanford.edu/RCWNzcm4Vy1xzCh5nkAu8UY>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH> <http://webprotege.stanford.edu/RCWNzcm4Vy1xzCh5nkAu8UY> "608GB/s")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_tarjeta_grafica> <http://webprotege.stanford.edu/RCWNzcm4Vy1xzCh5nkAu8UY> "12GB")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#frecuencia_base_tarjeta_grafica> <http://webprotege.stanford.edu/RCWNzcm4Vy1xzCh5nkAu8UY> "1605MHz")
+
+# Individual: <http://webprotege.stanford.edu/RCcEfrsdvqSgu1CJIaLckrP> (ComponenteMemoriaRam1)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCcEfrsdvqSgu1CJIaLckrP> "ComponenteMemoriaRam1")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria> <http://webprotege.stanford.edu/RCcEfrsdvqSgu1CJIaLckrP>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh> <http://webprotege.stanford.edu/RCcEfrsdvqSgu1CJIaLckrP> "240"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW> <http://webprotege.stanford.edu/RCcEfrsdvqSgu1CJIaLckrP> "1600MHz")
+DataPropertyAssertion(<http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e> <http://webprotege.stanford.edu/RCcEfrsdvqSgu1CJIaLckrP> "4GB")
+
+# Individual: <http://webprotege.stanford.edu/RCuz9Lm4YTB4qZyGkt94DSR> (ComponenteProcesador2)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCuz9Lm4YTB4qZyGkt94DSR> "ComponenteProcesador2")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador> <http://webprotege.stanford.edu/RCuz9Lm4YTB4qZyGkt94DSR>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCzgbwMMQzFCU0NyvGu00Jx> <http://webprotege.stanford.edu/RCuz9Lm4YTB4qZyGkt94DSR> "3.2 GHz")
+DataPropertyAssertion(<http://webprotege.stanford.edu/ROcPBgCPUf6X600as19EXL> <http://webprotege.stanford.edu/RCuz9Lm4YTB4qZyGkt94DSR> "16"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#num_nucleos_procesador> <http://webprotege.stanford.edu/RCuz9Lm4YTB4qZyGkt94DSR> "8"^^xsd:integer)
+
+# Individual: <http://webprotege.stanford.edu/RD1mPSUqHUn57RcuBsDce1U> (Marca7)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RD1mPSUqHUn57RcuBsDce1U> "Marca7")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/RD1mPSUqHUn57RcuBsDce1U>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> <http://webprotege.stanford.edu/RD1mPSUqHUn57RcuBsDce1U> "Marca componente")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/RD1mPSUqHUn57RcuBsDce1U> "AMD")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/RD1mPSUqHUn57RcuBsDce1U> "Estados Unidos")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> <http://webprotege.stanford.edu/RD1mPSUqHUn57RcuBsDce1U> "Ryzen")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/RD1mPSUqHUn57RcuBsDce1U> "Procesadores")
+
+# Individual: <http://webprotege.stanford.edu/RDepko8zNRZZTmkUXCnxzDc> (ComponentePlacaMadre5)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDepko8zNRZZTmkUXCnxzDc> "ComponentePlacaMadre5")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre> <http://webprotege.stanford.edu/RDepko8zNRZZTmkUXCnxzDc>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RB3cK72UjdeWR2C6Cb4uBRB> <http://webprotege.stanford.edu/RDepko8zNRZZTmkUXCnxzDc> "8"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDoqDLz8yDeUTKRSKqPJB2h> <http://webprotege.stanford.edu/RDepko8zNRZZTmkUXCnxzDc> "4400MHz")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_placa_madre> <http://webprotege.stanford.edu/RDepko8zNRZZTmkUXCnxzDc> "256GB")
+
+# Individual: <http://webprotege.stanford.edu/RDopD54cNMoBgqbDuUM8BVY> (Marca4)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDopD54cNMoBgqbDuUM8BVY> "Marca4")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/RDopD54cNMoBgqbDuUM8BVY>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R67sd4DtbWhSTY2axcLafQ> <http://webprotege.stanford.edu/RDopD54cNMoBgqbDuUM8BVY> "Marca computadora")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/RDopD54cNMoBgqbDuUM8BVY> "ACER")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/RDopD54cNMoBgqbDuUM8BVY> "Taiwán")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCdTfbADq19Hxk8quqJU7nK> <http://webprotege.stanford.edu/RDopD54cNMoBgqbDuUM8BVY> "Predator")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/RDopD54cNMoBgqbDuUM8BVY> "Gaming")
+
+# Individual: <http://webprotege.stanford.edu/RGyayjkhQw0wN6glH6W6JI> (ComponenteMemoriaRam6)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RGyayjkhQw0wN6glH6W6JI> "ComponenteMemoriaRam6")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria> <http://webprotege.stanford.edu/RGyayjkhQw0wN6glH6W6JI>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh> <http://webprotege.stanford.edu/RGyayjkhQw0wN6glH6W6JI> "288"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW> <http://webprotege.stanford.edu/RGyayjkhQw0wN6glH6W6JI> "5200MHz")
+DataPropertyAssertion(<http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e> <http://webprotege.stanford.edu/RGyayjkhQw0wN6glH6W6JI> "32GB")
+
+# Individual: <http://webprotege.stanford.edu/RMyzqlaHOv5gZcQSaH97Pq> (ComponenteMemoriaRam5)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RMyzqlaHOv5gZcQSaH97Pq> "ComponenteMemoriaRam5")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria> <http://webprotege.stanford.edu/RMyzqlaHOv5gZcQSaH97Pq>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDKqLzRK47ZwQHy1H5PRPfh> <http://webprotege.stanford.edu/RMyzqlaHOv5gZcQSaH97Pq> "288"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/ROXjJjDmGoBz93lvbrugSW> <http://webprotege.stanford.edu/RMyzqlaHOv5gZcQSaH97Pq> "4800MHz")
+DataPropertyAssertion(<http://webprotege.stanford.edu/Rhdc3WbcqXsT7lhSFNBS4e> <http://webprotege.stanford.edu/RMyzqlaHOv5gZcQSaH97Pq> "16GB")
+
+# Individual: <http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd> (ComponenteAlmacenamiento2)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd> "ComponenteAlmacenamiento2")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento> <http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R0PlBlbSLIv3asdnLXhD6h> <http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd> "Interno")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8bhR8cropJuoJ4FroMYguQ> <http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd> "SA2000M8/250G")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8ktfbxkHqBHqJRnOX0LCh8> <http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd> "44.99"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1> <http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd> "500MB/s")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr> <http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd> "450MB/s")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RuRWHpoaedIKlGeazpcAV9> <http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd> "Kingston A200")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_almacenamiento> <http://webprotege.stanford.edu/RPMEOYMqLXmz1QvhHUzQtd> "256GB")
+
+# Individual: <http://webprotege.stanford.edu/RUH6snbbcbEJOMGYQqVXTu> (Computadora7)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RUH6snbbcbEJOMGYQqVXTu> "Computadora7")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora> <http://webprotege.stanford.edu/RUH6snbbcbEJOMGYQqVXTu>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> <http://webprotege.stanford.edu/RUH6snbbcbEJOMGYQqVXTu> "ASUS ROG Strix")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> <http://webprotege.stanford.edu/RUH6snbbcbEJOMGYQqVXTu> "2021")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> <http://webprotege.stanford.edu/RUH6snbbcbEJOMGYQqVXTu> "1999"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> <http://webprotege.stanford.edu/RUH6snbbcbEJOMGYQqVXTu> "Gaming")
+
+# Individual: <http://webprotege.stanford.edu/RYyOf5JBiYmzpfwNFPdDGL> (ComponenteRefrigeracion1)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RYyOf5JBiYmzpfwNFPdDGL> "ComponenteRefrigeracion1")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion> <http://webprotege.stanford.edu/RYyOf5JBiYmzpfwNFPdDGL>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9h4n25EgTbyyCsjZRCT13C> <http://webprotege.stanford.edu/RYyOf5JBiYmzpfwNFPdDGL> "26dB")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBqabWoUlqEhbSoZEGVLvRt> <http://webprotege.stanford.edu/RYyOf5JBiYmzpfwNFPdDGL> "1"^^xsd:integer)
+
+# Individual: <http://webprotege.stanford.edu/RZEmjc16PyvfT7hiwDi0U3> (MarcaComputadora2)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RZEmjc16PyvfT7hiwDi0U3> "MarcaComputadora2")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://webprotege.stanford.edu/RZEmjc16PyvfT7hiwDi0U3>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7gx4WmZPTpbWq8PC71pJ0l> <http://webprotege.stanford.edu/RZEmjc16PyvfT7hiwDi0U3> "DellComputerCorp")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R93m7hxpbCB5il3AQueuexH> <http://webprotege.stanford.edu/RZEmjc16PyvfT7hiwDi0U3> "TexasEEUU")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RiOU5Op8BPDpcQziDZC6Oh> <http://webprotege.stanford.edu/RZEmjc16PyvfT7hiwDi0U3> "Computadoras")
+
+# Individual: <http://webprotege.stanford.edu/RZpxiVr0oM1Gmsd7BDXjTI> (ComponenteTarjetaGrafica1)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RZpxiVr0oM1Gmsd7BDXjTI> "ComponenteTarjetaGrafica1")
+ClassAssertion(<http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0> <http://webprotege.stanford.edu/RZpxiVr0oM1Gmsd7BDXjTI>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R75nTzU8L1xh16HW1Kn3qUH> <http://webprotege.stanford.edu/RZpxiVr0oM1Gmsd7BDXjTI> "448GB/s")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_tarjeta_grafica> <http://webprotege.stanford.edu/RZpxiVr0oM1Gmsd7BDXjTI> "8GB")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#frecuencia_base_tarjeta_grafica> <http://webprotege.stanford.edu/RZpxiVr0oM1Gmsd7BDXjTI> "1014MHz")
+
+# Individual: <http://webprotege.stanford.edu/Rg7mTpJO7QZIy54S3HUr6Z> (Computadora6)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rg7mTpJO7QZIy54S3HUr6Z> "Computadora6")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora> <http://webprotege.stanford.edu/Rg7mTpJO7QZIy54S3HUr6Z>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> <http://webprotege.stanford.edu/Rg7mTpJO7QZIy54S3HUr6Z> "Acer Aspire 5")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> <http://webprotege.stanford.edu/Rg7mTpJO7QZIy54S3HUr6Z> "2020")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> <http://webprotege.stanford.edu/Rg7mTpJO7QZIy54S3HUr6Z> "599"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> <http://webprotege.stanford.edu/Rg7mTpJO7QZIy54S3HUr6Z> "Escritorio")
+
+# Individual: <http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi> (ComponenteAlmacenamiento1)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi> "ComponenteAlmacenamiento1")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento> <http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R0PlBlbSLIv3asdnLXhD6h> <http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi> "Interno")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8bhR8cropJuoJ4FroMYguQ> <http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi> "MZ-76E120B/AM")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8ktfbxkHqBHqJRnOX0LCh8> <http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi> "39.99"^^xsd:double)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDwVzKQsudATpDAArWu1rV1> <http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi> "450MB/s")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RkT7zLdFyvYc0CsdySXfqr> <http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi> "400MB/s")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RuRWHpoaedIKlGeazpcAV9> <http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi> "Samsung 860 Evo")
+DataPropertyAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#capacidad_almacenamiento> <http://webprotege.stanford.edu/RoqVHdB9IUUXXMZOeRyYAi> "128GB")
+
+# Individual: <http://webprotege.stanford.edu/RowbSHRprXb3dCrLRipj3j> (Computadora3)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RowbSHRprXb3dCrLRipj3j> "Computadora3")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora> <http://webprotege.stanford.edu/RowbSHRprXb3dCrLRipj3j>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7aLFKFemYzUavXDemq7NfK> <http://webprotege.stanford.edu/RowbSHRprXb3dCrLRipj3j> "Razer Blade 15")
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7nDZav4mRMJm0gsegByFdl> <http://webprotege.stanford.edu/RowbSHRprXb3dCrLRipj3j> "2021")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCkuqxJX54Qyas93kXiT6ux> <http://webprotege.stanford.edu/RowbSHRprXb3dCrLRipj3j> "2299"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpkPbo4AhKV8BoJnIB9pQE> <http://webprotege.stanford.edu/RowbSHRprXb3dCrLRipj3j> "Gaming")
+
+# Individual: <http://webprotege.stanford.edu/RyghrutsW0RFWlscHyUcpz> (SegunUso1)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RyghrutsW0RFWlscHyUcpz> "SegunUso1")
+ClassAssertion(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso> <http://webprotege.stanford.edu/RyghrutsW0RFWlscHyUcpz>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBuEyrO17FsyQvIvDFGLJzG> <http://webprotege.stanford.edu/RyghrutsW0RFWlscHyUcpz> "Es una computadora de escritorio diseñada para realizar tareas administrativas, como el manejo de hojas de cálculo y el proceso de documentos.")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCeBpAh2utr4NBKXgAeH0tu> <http://webprotege.stanford.edu/RyghrutsW0RFWlscHyUcpz> "150 W")
+DataPropertyAssertion(<http://webprotege.stanford.edu/RRR9uB4WCwMWv6ymd6ghGw> <http://webprotege.stanford.edu/RyghrutsW0RFWlscHyUcpz> "Oficina")
+
+
+DisjointClasses(<http://webprotege.stanford.edu/RBwA77QVko6jTsLbgivtpm0> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Almacenamiento> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Memoria> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#PlacaMadre> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Procesador> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Refrigeracion>)
+DisjointClasses(<http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Componente> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Computadora> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#Marca> <http://www.semanticweb.org/university/ontologies/2024/8/untitled-ontology-3#SegunUso>)
+)
