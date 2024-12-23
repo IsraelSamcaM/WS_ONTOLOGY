@@ -7,7 +7,7 @@ from routes.test import json_endpoint
 app = Flask(__name__)
 
 # Configurar CORS para permitir solicitudes desde cualquier origen (puedes especificar un dominio en origins)
-CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})
+CORS(app)
 
 # Registrar los blueprints
 app.register_blueprint(sparql_endpoint, url_prefix="/sparql")

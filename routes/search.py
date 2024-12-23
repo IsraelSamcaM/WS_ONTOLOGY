@@ -1,18 +1,23 @@
-# search_endpoint.py
-from flask import Blueprint, request, jsonify
-from config import g, query_dbpedia  # Importamos el grafo y la función de consulta a DBpedia
+from flask import Blueprint, jsonify
+from rdflib import Graph
+from config import query_dbpedia  # Importamos la función de consulta a DBpedia
+
+# Conexion a la ontología local
+ONT_FILE = "computadora.owl"  # Ruta a tu archivo .owl
+g = Graph()
+g.parse(ONT_FILE, format="xml")
 
 # Crear un Blueprint para el endpoint Search
 semantic_search = Blueprint("search", __name__)
 
-@semantic_search.route("/", methods=["POST"])
-def handle_search():
+@semantic_search.route("/<string:term>", methods=["GET"])  # Usar un parámetro en la URL
+def handle_search(term):
     """
     Endpoint para buscar un término semántico en la ontología local y DBpedia.
     """
     try:
-        # Obtener el término de búsqueda
-        search_term = request.json.get("term", "").strip()
+        # Limpiar el término de búsqueda
+        search_term = term.strip()
         if not search_term:
             return jsonify({"error": "Search term is required"}), 400
 
@@ -21,15 +26,16 @@ def handle_search():
         SELECT ?subject ?label ?comment ?type ?predicate ?object
         WHERE {{
             {{
-                ?subject rdfs:label ?label .
+                ?subject rdfs:label ?label . 
                 FILTER(CONTAINS(LCASE(?label), LCASE("{search_term}")))
             }} UNION {{
-                ?subject ?predicate ?object .
+                ?subject ?predicate ?object . 
                 FILTER(CONTAINS(LCASE(STR(?object)), LCASE("{search_term}")))
+
             }} OPTIONAL {{
-                ?subject rdfs:comment ?comment .
+                ?subject rdfs:comment ?comment . 
             }} OPTIONAL {{
-                ?subject rdf:type ?type .
+                ?subject rdf:type ?type . 
             }}
         }}
         LIMIT 20
