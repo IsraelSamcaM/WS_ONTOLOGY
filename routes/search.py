@@ -1,20 +1,37 @@
 # search_endpoint.py
 from flask import Blueprint, request, jsonify
 from config import g, query_dbpedia  # Importamos el grafo y la función de consulta a DBpedia
+from googletrans import Translator  # Librería para traducción automática
 
 # Crear un Blueprint para el endpoint Search
 semantic_search = Blueprint("search", __name__)
 
-@semantic_search.route("/<string:term>", methods=["GET"])  # Usar un parámetro en la URL
-def handle_search(term):
+# Instanciar el traductor
+translator = Translator()
+
+# Diccionario para mapear los códigos de idioma
+LANGUAGE_MAP = {
+    "1": "es",  # Español
+    "2": "en",  # Inglés
+    "3": "fr",  # Francés
+    "4": "pt"   # Portugués
+}
+
+@semantic_search.route("/<string:term>/<string:language>", methods=["GET"])  # Añadir idioma como parámetro
+def handle_search(term, language):
     """
-    Endpoint para buscar un término semántico en la ontología local y DBpedia.
+    Endpoint para buscar un término semántico en la ontología local y DBpedia con soporte multilingüe.
     """
     try:
-        # Limpiar el término de búsqueda (por si acaso)
+        # Validar el término de búsqueda
         search_term = term.strip()
         if not search_term:
             return jsonify({"error": "Search term is required"}), 400
+
+        # Validar el idioma
+        target_language = LANGUAGE_MAP.get(language)
+        if not target_language:
+            return jsonify({"error": "Invalid language code"}), 400
 
         # Crear la consulta SPARQL para la ontología local
         local_query = f"""
@@ -41,24 +58,37 @@ def handle_search(term):
         local_results = g.query(local_query)
         local_output = []
         for row in local_results:
-            # Asignar el `object` como `label` si `label` es None
             label = str(row["label"]) if row.get("label") else str(row["object"]) if row.get("object") else None
+            comment = str(row["comment"]) if row.get("comment") else None
+
+            # Traducir `label` y `comment` al idioma solicitado
+            label_translated = translator.translate(label, src="en", dest=target_language).text if label else None
+            comment_translated = translator.translate(comment, src="en", dest=target_language).text if comment else None
+
             local_output.append({
                 "subject": str(row["subject"]),
-                "label": label,
-                "comment": str(row["comment"]) if row.get("comment") else None,
+                "label": label_translated,
+                "comment": comment_translated,
                 "type": str(row["type"]) if row.get("type") else None,
                 "predicate": str(row["predicate"]) if row.get("predicate") else None,
                 "object": str(row["object"]) if row.get("object") else None
             })
 
-        # Consultar a DBpedia
+        # Consultar a DBpedia y traducir los resultados
         dbpedia_results = query_dbpedia(search_term)
+        translated_dbpedia_results = []
+        for result in dbpedia_results:
+            translated_dbpedia_results.append({
+                "subject": result["subject"],
+                "label": translator.translate(result["label"], src="en", dest=target_language).text if result.get("label") else None,
+                "comment": translator.translate(result["comment"], src="en", dest=target_language).text if result.get("comment") else None,
+                "type": result["type"]
+            })
 
         # Combinar resultados y retornarlos
         return jsonify({
             "local_results": local_output,
-            "dbpedia_results": dbpedia_results
+            "dbpedia_results": translated_dbpedia_results
         })
 
     except Exception as e:
