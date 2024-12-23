@@ -1,11 +1,6 @@
-from flask import Blueprint, jsonify
-from rdflib import Graph
-from config import query_dbpedia  # Importamos la función de consulta a DBpedia
-
-# Conexion a la ontología local
-ONT_FILE = "computadora.owl"  # Ruta a tu archivo .owl
-g = Graph()
-g.parse(ONT_FILE, format="xml")
+# search_endpoint.py
+from flask import Blueprint, request, jsonify
+from config import g, query_dbpedia  # Importamos el grafo y la función de consulta a DBpedia
 
 # Crear un Blueprint para el endpoint Search
 semantic_search = Blueprint("search", __name__)
@@ -16,7 +11,7 @@ def handle_search(term):
     Endpoint para buscar un término semántico en la ontología local y DBpedia.
     """
     try:
-        # Limpiar el término de búsqueda
+        # Limpiar el término de búsqueda (por si acaso)
         search_term = term.strip()
         if not search_term:
             return jsonify({"error": "Search term is required"}), 400
@@ -27,14 +22,15 @@ def handle_search(term):
         WHERE {{
             {{
                 ?subject rdfs:label ?label . 
-                FILTER(CONTAINS(LCASE(?label), LCASE("{search_term}")))
+                FILTER(CONTAINS(LCASE(?label), LCASE("{search_term}"))).
             }} UNION {{
                 ?subject ?predicate ?object . 
-                FILTER(CONTAINS(LCASE(STR(?object)), LCASE("{search_term}")))
-
-            }} OPTIONAL {{
+                FILTER(CONTAINS(LCASE(STR(?object)), LCASE("{search_term}"))).
+            }}
+            OPTIONAL {{
                 ?subject rdfs:comment ?comment . 
-            }} OPTIONAL {{
+            }}
+            OPTIONAL {{
                 ?subject rdf:type ?type . 
             }}
         }}
@@ -45,9 +41,11 @@ def handle_search(term):
         local_results = g.query(local_query)
         local_output = []
         for row in local_results:
+            # Asignar el `object` como `label` si `label` es None
+            label = str(row["label"]) if row.get("label") else str(row["object"]) if row.get("object") else None
             local_output.append({
                 "subject": str(row["subject"]),
-                "label": str(row["label"]) if row.get("label") else None,
+                "label": label,
                 "comment": str(row["comment"]) if row.get("comment") else None,
                 "type": str(row["type"]) if row.get("type") else None,
                 "predicate": str(row["predicate"]) if row.get("predicate") else None,
